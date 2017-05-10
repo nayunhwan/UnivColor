@@ -10,7 +10,7 @@
   <style>
     .ui.title {
       text-align: center;
-      margin: 10em 0;
+      margin: 8em 0;
     }
     .container {
       width: 50%;
@@ -18,25 +18,41 @@
     }
     .colorBox{
       display: inline-block;
-      width: 128px;
-      height: 128px;
+      color: white;
+      font-size: 5px;
+      line-height: 82px;
+      text-align: center;
+      width: 82px;
+      height: 82px;
 
     }
   </style>
   <script>
-   var colorArray = ["#114fa1","#00458c","#003594","#006276","#800080","#0091FF","#a90056","#1851a5","#036b3f","#006940","#004889","#2956a6","#003A56","#0C4DA2","#da2127","#242b90","#0057b8","#23438e","#98012e","#df0013","#9d2235","#024da0","#862633","#003f91","#01499a","#1d2881","#8b1f12","#ed1c24","#144112","#008b9c","#2864ae","#437fc1","#221f1f","#005aab","#1e90ff","#57444e","#cf171f","#b32f20","#13007d","#1f519b","#245ca1","#0742a4","#00806e","#df569e","#50ad95","#3680bd","#7a42a0","#347c4d","#2d70b5","#184490","#ac145a","#cb6015","#ac145a","#53aa48","#d43645","#255ea9","#29166f","#143b82","#0b3d91","#2457a6","#10336c","#8b0000","#353a97","#20b2aa","#1f5a92","#071d8e","#12319b","#13007c","#9a2183","#005baa","#ffd000","#5389c6","#1f519b","#B0232A","#71bf44","#20408e","#00205b","#151f6d","#8DC63F","#ba0c2f","#00587c","#16407d","#004c97","#00677F","#62b5e5","#003c71","#002c62"];
-   colorArray.sort();
-   var sorted = colorArray.sort(function(colorA, colorB) {
-    return surfacecurve.color(colorA).hue() - surfacecurve.color(colorB).hue();
+   var colorArray = ["#114fa1", "#00458c", "#003594", "#006276", "#800080", "#0091FF", "#a90056", "#1851a5", "#036b3f", "#006940", "#004889", "#2956a6", "#003A56", "#0C4DA2", "#da2127", "#242b90", "#0057b8", "#23438e", "#98012e", "#df0013", "#9d2235", "#024da0", "#862633", "#003f91", "#01499a", "#1d2881", "#8b1f12", "#ed1c24", "#144112", "#008b9c", "#2864ae", "#437fc1", "#221f1f", "#005aab", "#1e90ff",
+   "#57444e", "#cf171f", "#b32f20", "#13007d", "#1f519b", "#245ca1", "#0742a4", "#00806e", "#df569e", "#50ad95", "#3680bd", "#7a42a0", "#347c4d", "#2d70b5", "#184490", "#ac145a", "#cb6015", "#8b2842", "#53aa48", "#d43645", "#255ea9", "#29166f", "#143b82", "#0b3d91", "#2457a6", "#10336c", "#8b0000", "#353a97", "#20b2aa", "#1f5a92", "#071d8e", "#12319b", "#13007c", "#9a2183", "#005baa", "#ffd000", "#2d6fa8", "#5389c6", "#1f519b", "#B0232A", "#71bf44", "#20408e", "#00205b", "#151f6d", "#8DC63F", "#ba0c2f", "#00587c", "#16407d", "#004c97", "#00677F", "#62b5e5", "#003c71", "#002c62"];
+
+   var univName = ["가야대", "가천대", "가톨릭대", "가톨릭관동대", "감리교신학대", "강남대", "강릉원주대", "강원대", "건국대", "건양대", "경기대", "경남과학기술대", "경남대", "경동대", "경북대", "경상대", "경성대", "경운대", "경일대",
+   "경주대", "경희대", "계명대", "고려대", "고신대", "공주대", "광신대", "광운대", "광주가톨릭대", "광주대", "광주여자대", "국민대", "군산대", "극동대", "금강대", "금오공대", "김천대", "꽃동네대", "나사렛대", "남부대", "남서울대", "단국대", "대구가톨릭대", "대구대", "대구예술대", "대구한의대", "대신대", "대전가톨릭대", "대전대", "대전신학대", "대진대", "덕성여대",
+   "동국대", "동덕여대", "동명대", "동서대", "동신대", "동아대", "동양대", "동의대", "루터대", "명지대", "목원대", "목포가톨릭대", "목포대", "목포해양대", "배재대", "백석대", "부경대", "부산가톨릭대", "부산대", "부산외국어대", "부산장신대", "삼육대", "상명대", "서강대", "서경대", "서울대", "서울과학기술대", "서울시립대", "성균관대", "세종대", "숭실대", "연세대", "중앙대", "한국외국어대", "한성대", "한양대", "홍익대"]
+
+
+   var newArray = []
+   for(var i = 0; i < colorArray.length; i++){
+     newArray.push([univName[i], colorArray[i]]);
+   }
+
+   var sorted = newArray.sort(function(colorA, colorB) {
+    return surfacecurve.color(colorA[1]).hue() - surfacecurve.color(colorB[1]).hue();
    });
+
   //  console.log(sorted);
   //  colorArray = sorted;
    $(document).ready(function(){
      $('.container').append($('h2').text("?"));
-     for(var i = 0; i < colorArray.length; i++){
+     for(var i = 0; i < newArray.length; i++){
 
       // console.log(color[i]);
-      var box = $('<div/>').addClass('colorBox').css({'background': colorArray[i]}).text(i)
+      var box = $('<div/>').addClass('colorBox').css({'background': newArray[i][1]}).text(newArray[i][0])
       // console.log(surfacecurve.color(colorArray[i]));
       $('.container').append(box);
      }

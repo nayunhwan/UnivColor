@@ -54,7 +54,7 @@ function getColorByUnivName(univ) {
   if(univ == "DJNU" || univ.includes("대진대")) return "#184490";
   if(univ == "DSWU" || univ.includes("덕성여자대") || univ.includes("덕성여대")) return "#ac145a";
   if(univ == "DGU" || univ.includes("동국대")) return "#cb6015";
-  if(univ == "DDWU" || univ.includes("동덕여자대") || univ.includes("동덕여대")) return "#ac145a";
+  if(univ == "DDWU" || univ.includes("동덕여자대") || univ.includes("동덕여대")) return "#8b2842";
   if(univ == "TU" || univ.includes("동명대")) return "#53aa48";
   if(univ == "DSU" || univ.includes("동서대")) return "#d43645";
   if(univ == "DSNU" || univ.includes("동신대")) return "#255ea9";
@@ -77,7 +77,7 @@ function getColorByUnivName(univ) {
   if(univ == "PNU" || univ.includes("부산대") || univ == "부대") return "#005baa";
   if(univ == "BUFS" || univ.includes("부산외국어대") || univ == "부산외대") return "#ffd000";
   if(univ == "BPU" || univ.includes("부산장신대")) return "#2d6fa8";
-  
+
 
   if(univ == "SYU" || univ.includes("삼육대")) return "#5389c6";
   if(univ == "SMU" || univ.includes("상명대")) return "#1f519b";
