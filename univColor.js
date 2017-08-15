@@ -77,7 +77,7 @@ function getColorByUnivName(univ) {
   if (univ == "PNU" || univ.includes("부산대") || univ == "부대") return "#005baa";
   if (univ == "BUFS" || univ.includes("부산외국어대") || univ == "부산외대") return "#ffd000";
   if (univ == "BPU" || univ.includes("부산장신대")) return "#2d6fa8";
-  
+
   if (univ == "SYU" || univ.includes("삼육대")) return "#5389c6";
   if (univ == "SMU" || univ.includes("상명대")) return "#1f519b";
   if (univ == "SGU" || univ.includes("서강대")) return "#B0232A";
@@ -89,20 +89,21 @@ function getColorByUnivName(univ) {
   if (univ == "SKKU" || univ.includes("성균관대")) return "#8DC63F";
   if (univ == "SJU" || univ.includes("세종대")) return "#ba0c2f";
   if (univ == "SSU" || univ.includes("숭실대")) return "#4badcd";
-  if (univ == "SWC" || univ.includes("숭의여대")) return "062d8f";
+  if (univ == "SWC" || univ.includes("숭의여대")) return "#062d8f";
 
   if (univ == "AJU" || univ.includes("아주대")) return "#0072ce";
   if (univ == "YSU" || univ.includes("연세대")) return "#16407d";
-  if (univ == "JBNU" || univ.includes("전북대")) return "#56296f";
   if (univ == "JNU" || univ.includes("전남대")) return "#00913F";
+  if (univ == "JBNU" || univ.includes("전북대")) return "#56296f";
+  if (univ == "JJU" || univ.includes("전주대")) return "#006ba6";
   if (univ == "CAU" || univ.includes("중앙대")) return "#004c97";
-  
+
   if (univ == "CNU" || univ.includes("충남대")) return "#003f98";
 
   if (univ == "KAIST" || univ.includes("카이스트")) return "#004191";
   
   if (univ == "PTU" || univ.includes("평택대")) return "#003e15";
-  
+
   if (univ == "HUFS" || univ.includes("한국외국어대")) return "#00677F";
   if (univ == "KAU" || univ.includes("한국항공대")) return "#302475";
   if (univ == "HSU" || univ.includes("한성대")) return "#62b5e5";
