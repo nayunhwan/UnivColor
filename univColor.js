@@ -98,12 +98,13 @@ function getColorByUnivName(univ) {
   
   if (univ == "CNU" || univ.includes("충남대")) return "#003f98";
   
+  if (univ == "PTU" || univ.includes("평택대")) return "#003e15";
+  
   if (univ == "HUFS" || univ.includes("한국외국어대")) return "#00677F";
   if (univ == "KAU" || univ.includes("한국항공대")) return "#302475";
   if (univ == "HSU" || univ.includes("한성대")) return "#62b5e5";
   if (univ == "HYU" || univ.includes("한양대")) return "#003c71";
   if (univ == "HIU" || univ.includes("홍익대")) return "#002c62";
-
 
   return "Not Found";
 }

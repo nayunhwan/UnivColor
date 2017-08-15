@@ -93,6 +93,7 @@ This is a Simple Javascript function for getting Primary Color of University in 
 * 전북대
 * 중앙대
 * 충남대
+* 평택대
 * 한국외국어대
 * 한국항공대
 * 한성대
