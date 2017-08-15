@@ -95,7 +95,9 @@ function getColorByUnivName(univ) {
   if (univ == "JBNU" || univ.includes("전북대")) return "#56296f";
   if (univ == "JNU" || univ.includes("전남대")) return "#00913F";
   if (univ == "CAU" || univ.includes("중앙대")) return "#004c97";
-
+  
+  if (univ == "CNU" || univ.includes("충남대")) return "#003f98";
+  
   if (univ == "HUFS" || univ.includes("한국외국어대")) return "#00677F";
   if (univ == "KAU" || univ.includes("한국항공대")) return "#302475";
   if (univ == "HSU" || univ.includes("한성대")) return "#62b5e5";
