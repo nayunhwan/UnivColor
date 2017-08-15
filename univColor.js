@@ -26,7 +26,7 @@ function getColorByUnivName(univ) {
   if(univ == "KOSIN" || univ.includes("고신대")) return "#003f91";
   if(univ == "KJNU" || univ.includes("공주대")) return "#01499a";
   if(univ == "KSU" || univ.includes("광신대")) return "#1d2881";
-  if(univ == "KWU" || univ.includes("광운대")) return "#8b1f12";
+  if(univ == "KWU" || univ.includes("광운대")) return "#8a1601";
   if(univ == "GWJCU" || univ.includes("광주가톨릭대")) return "#ed1c24";
   if(univ == "GWJU" || univ.includes("광주대")) return "#144112";
   if(univ == "GWJWU" || univ.includes("광주여자대")) return "#008b9c";
