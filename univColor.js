@@ -22,6 +22,7 @@ function getColorByUnivName(univ) {
   if (univ == "GJU" || univ.includes("경주대")) return "#df0013";
   if (univ == "KHU" || univ.includes("경희대")) return "#9d2235";
   if (univ == "KEIMYUNG" || univ.includes("계명대")) return "#024da0";
+  if (univ == "KMCU" || univ.includes("계명문화대")) return "#eb2d2f";
   if (univ == "KRU" || univ.includes("고려대") || univ == "고대") return "#862633";
   if (univ == "KOSIN" || univ.includes("고신대")) return "#003f91";
   if (univ == "KJNU" || univ.includes("공주대")) return "#01499a";
@@ -93,6 +94,7 @@ function getColorByUnivName(univ) {
 
   if (univ == "AJU" || univ.includes("아주대")) return "#0072ce";
   if (univ == "YSU" || univ.includes("연세대")) return "#16407d";
+  if (univ == "YU" || univ.includes("영남대")) return "#003e7d";
   if (univ == "JNU" || univ.includes("전남대")) return "#00913F";
   if (univ == "JBNU" || univ.includes("전북대")) return "#56296f";
   if (univ == "JJU" || univ.includes("전주대")) return "#006ba6";
