@@ -89,7 +89,6 @@ function getColorByUnivName(univ) {
   if(univ == "SJU" || univ.includes("세종대")) return "#ba0c2f";
   if(univ == "SSU" || univ.includes("숭실대")) return "#4badcd";
 
-
   if(univ == "YSU" || univ.includes("연세대")) return "#16407d";
 
   if(univ == "CAU" || univ.includes("중앙대")) return "#004c97";
@@ -101,3 +100,4 @@ function getColorByUnivName(univ) {
 
 
   return "#ffffff";
+}
