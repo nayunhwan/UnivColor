@@ -26,6 +26,7 @@ This is a Simple Javascript function for getting Primary Color of University in 
 * 경주대
 * 경희대
 * 계명대
+* 계명문화대
 * 고려대
 * 고신대
 * 공주대
