@@ -31,13 +31,15 @@
     }
   </style>
   <script>
-    function getColorArray(univNames) {
-      var colorArray = [];
-      univNames.forEach(function (name) {
-        colorArray.push(getColorByUnivName(name));
-      });
-      return colorArray;
-    }
+  
+  function initialUnivColor(univNames) {
+    return univNames.map(function(name){
+      var univObject = {};
+      univObject.color = getColorByUnivName(name);
+      univObject.name = name;
+      return univObject;
+    });
+  }
 
     var univNames = ["가야대", "가천대", "가톨릭대", "가톨릭관동대", "감리교신학대", "강남대",
       "강릉원주대", "강원대", "건국대", "건양대", "경기대", "경남과학기술대", "경남대", "경동대",
@@ -49,35 +51,35 @@
       "목원대", "목포가톨릭대", "목포대", "목포해양대", "배재대", "백석대", "부경대", "부산가톨릭대", "부산대",
       "부산외국어대", "부산장신대", "삼육대", "상명대", "서강대", "서경대", "서울대", "서울과학기술대",
       "서울시립대", "성공회대", "성균관대", "세종대", "숭실대", "숭의여대", "아주대", "연세대", "전남대", "전북대", "중앙대",
-      "충남대", "평택대", "한국외국어대", "한국항공대", "한성대", "한양대", "홍익대"]
+      "충남대", "평택대", "한국외국어대", "한국항공대", "한성대", "한양대", "호서대", "홍익대"];
 
-    var colorArray = getColorArray(univNames);
-    var newArray = []
-    for (var i = 0; i < colorArray.length; i++) {
-      newArray.push([univNames[i], colorArray[i]]);
-    }
+   var univHash = initialUnivColor(univNames);
 
-    var sorted = newArray.sort(function (colorA, colorB) {
-      return surfacecurve.color(colorA[1]).hue() - surfacecurve.color(colorB[1]).hue();
-    });
+   var sortedByColor = univHash.sort(function(colorA, colorB) {
+    return surfacecurve.color(colorA.color).hue() - surfacecurve.color(colorB.color).hue();
+   });
 
-    $(document).ready(function () {
-      $('.container').append($('h2').text("?"));
-      for (var i = 0; i < newArray.length; i++) {
-        var box = $('<div/>').addClass('colorBox').css({ 'background': newArray[i][1] }).text(newArray[i][0])
-        $('.container').append(box);
-      }
+   $(function(){
 
-      $('#getColor').click(function () {
-        var color = getColorByUnivName($('#input').val());
-        $('#hexCode').css('color', color);
-        $('#hexCode').text(color);
+      var univListTemplate = sortedByColor.map(function(univ, i) {
+        var box = $('<div/>').addClass('colorBox').css({'background': univ.color}).text(univ.name);
+        return box.get(0);
       });
 
-    });
+      $('.container').html(univListTemplate);
+
+      $('#getColor').on('click', function(){
+        var color = getColorByUnivName($('#input').val());
+        var $haxCode = $('#hexCode');
+        if(color === 'Not Found') {
+          $haxCode.css({'background': '#ffffff', 'color': '#000000'}).text(color);
+        } else {
+          $haxCode.css({'background': color, 'color': '#ffffff'}).text(color);
+        }
+      });
+   });
   </script>
 </head>
-
 <body>
   <div class="ui title">
     <h1 class="ui huge header">Univ Color
@@ -95,7 +97,6 @@
       </div>
       <button id="getColor" class="ui button basic">Get Color Code</button>
     </div>
-
   </div>
 
   <div class="container"></div>
