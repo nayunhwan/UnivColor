@@ -58,13 +58,18 @@
    });
 
    $(document).ready(function(){
-     $('.container').append($('h2').text("?"));
-     for(var i = 0; i < newArray.length; i++){
-      var box = $('<div/>').addClass('colorBox').css({'background': newArray[i][1]}).text(newArray[i][0])
-      $('.container').append(box);
-     }
+      $('.container').append($('h2').text("?"));
+        for(var i = 0; i < newArray.length; i++){
+        var box = $('<div/>').addClass('colorBox').css({'background': newArray[i][1]}).text(newArray[i][0])
+        $('.container').append(box);
+      }
 
-   })
+      $('#getColor').click(function(){
+        var color = getColorByUnivName($('#input').val());
+        $('#hexCode').text(color);
+      });
+
+   });
 
   </script>
 </head>
@@ -76,6 +81,16 @@
       </div>
     </h1>
     <a href="https://github.com/nayunhwan/UnivColor" class="ui button basic"><i class="github icon"></i> Github</a>
+    <br />
+    <br />
+    <h3 id="hexCode">Input Name of University</h3>
+    <div>
+      <div class="ui input focus">
+        <input id="input" type="text" placeholder="Search...">
+      </div>
+      <button id="getColor" class="ui button basic">Get Color Code</button>
+    </div>
+
   </div>
 
   <div class="container"></div>

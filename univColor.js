@@ -99,5 +99,5 @@ function getColorByUnivName(univ) {
   if(univ == "HIU" || univ.includes("홍익대")) return "#002c62";
 
 
-  return "#ffffff";
+  return "Not Found";
 }
