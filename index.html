@@ -66,6 +66,7 @@
 
       $('#getColor').click(function(){
         var color = getColorByUnivName($('#input').val());
+        $('#hexCode').css('color', color);
         $('#hexCode').text(color);
       });
 
