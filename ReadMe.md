@@ -97,6 +97,7 @@ This is a Simple Javascript function for getting Primary Color of University in 
 * 충남대
 * 카이스트
 * 평택대
+* 한동대
 * 한국외국어대
 * 한국항공대
 * 한성대
