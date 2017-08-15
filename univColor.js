@@ -4,6 +4,7 @@ function getColorByUnivName(univ) {
   if(univ == "GCHU" || univ.includes("가천대")) return "#00458c";
   if(univ == "CUK" || univ.includes("가톨릭대")) return "#003594";
   if(univ == "CKU" || univ.includes("가톨릭관동대")) return "#006276";
+  if(univ == "CNU" || univ.includes("충남대")) return "#003f98";
   if(univ == "MTU" || univ.includes("감리교신학대")) return "#800080";
   if(univ == "KANGNAM" || univ.includes("강남대")) return "#0091FF";
   if(univ == "GWNU" || univ.includes("강릉원주대")) return "#a90056";
