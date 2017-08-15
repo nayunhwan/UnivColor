@@ -28,19 +28,29 @@
       text-align: center;
       width: 82px;
       height: 82px;
+      cursor: pointer;
     }
   </style>
   <script>
 
-  function initialUnivColor(univNames) {
-    return univNames.map(function(name){
-      var univObject = {};
-      univObject.color = getColorByUnivName(name);
-      univObject.name = name;
-      return univObject;
-    });
-  }
+    function initialUnivColor(univNames) {
+      return univNames.map(function(name){
+        var univObject = {};
+        univObject.color = getColorByUnivName(name);
+        univObject.name = name;
+        return univObject;
+      });
+    }
 
+    function hexc(colorval) {
+      var parts = colorval.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
+      delete(parts[0]);
+      for (var i = 1; i <= 3; ++i) {
+          parts[i] = parseInt(parts[i]).toString(16).toUpperCase();
+          if (parts[i].length == 1) parts[i] = '0' + parts[i];
+      }
+      return color = '#' + parts.join('');
+    }
 
     var univNames = ["UC Berkeley", "가야대", "가천대", "가톨릭대", "가톨릭관동대", "감리교신학대", "강남대",
       "강릉원주대", "강원대", "건국대", "건양대", "경기대", "경남과학기술대", "경남대", "경동대",
@@ -78,7 +88,14 @@
           $haxCode.css({'background': color, 'color': '#ffffff'}).text(color);
         }
       });
-      $(".colorBox").hover(function(){
+
+
+      $('.colorBox').click(function(){
+        var $haxCode = $('#hexCode');
+        var color = hexc($(this).css('background-color'));
+        $haxCode.css({'background': color, 'color': '#ffffff'}).text(color);
+      });
+      $('.colorBox').hover(function(){
         $(this).css("opacity", "0.8");
         $(this).css("font-size", "6.5px");
       }, function() {
