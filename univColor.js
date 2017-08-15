@@ -100,6 +100,8 @@ function getColorByUnivName(univ) {
 
   if (univ == "CNU" || univ.includes("충남대")) return "#003f98";
 
+  if (univ == "KAIST" || univ.includes("카이스트")) return "#004191";
+  
   if (univ == "PTU" || univ.includes("평택대")) return "#003e15";
 
   if (univ == "HUFS" || univ.includes("한국외국어대")) return "#00677F";
