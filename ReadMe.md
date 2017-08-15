@@ -88,6 +88,7 @@ This is a Simple Javascript function for getting Primary Color of University in 
 * 숭실대
 * 연세대
 * 중앙대
+* 전북대
 * 한국외국어대
 * 한성대
 * 한양대
