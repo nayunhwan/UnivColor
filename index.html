@@ -41,7 +41,8 @@
     });
   }
 
-    var univNames = ["가야대", "가천대", "가톨릭대", "가톨릭관동대", "감리교신학대", "강남대",
+
+    var univNames = ["UC Berkeley", "가야대", "가천대", "가톨릭대", "가톨릭관동대", "감리교신학대", "강남대",
       "강릉원주대", "강원대", "건국대", "건양대", "경기대", "경남과학기술대", "경남대", "경동대",
       "경북대", "경상대", "경성대", "경운대", "경일대", "경주대", "경희대", "계명대", "계명문화대", "고려대", "고신대",
       "공주대", "광신대", "광운대", "광주가톨릭대", "광주대", "광주여자대", "국민대", "군산대", "극동대",
@@ -77,6 +78,13 @@
           $haxCode.css({'background': color, 'color': '#ffffff'}).text(color);
         }
       });
+      $(".colorBox").hover(function(){
+        $(this).css("opacity", "0.8");
+        $(this).css("font-size", "6.5px");
+      }, function() {
+        $(this).css("opacity", "1.0");
+        $(this).css("font-size", "5px");
+      });
    });
   </script>
 </head>
@@ -84,7 +92,7 @@
   <div class="ui title">
     <h1 class="ui huge header">Univ Color
       <div class="sub header">
-        The Color System of Universities in Korea
+        The Color System of Universities
       </div>
     </h1>
     <a href="https://github.com/nayunhwan/UnivColor" class="ui button basic"><i class="github icon"></i> Github</a>
