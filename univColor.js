@@ -114,6 +114,6 @@ function getColorByUnivName(univ) {
   if (univ == "HYU" || univ.includes("한양대")) return "#003c71";
   if (univ == "HOSEO" || univ.includes("호서대")) return "#08449a";
   if (univ == "HIU" || univ.includes("홍익대")) return "#002c62";
-
+  if (univ == "CBNU" ||univ.includes("충북대")) return "#9B1F4E"
   return "Not Found";
 }
