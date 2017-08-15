@@ -77,7 +77,7 @@ function getColorByUnivName(univ) {
   if (univ == "PNU" || univ.includes("부산대") || univ == "부대") return "#005baa";
   if (univ == "BUFS" || univ.includes("부산외국어대") || univ == "부산외대") return "#ffd000";
   if (univ == "BPU" || univ.includes("부산장신대")) return "#2d6fa8";
-
+  
   if (univ == "SYU" || univ.includes("삼육대")) return "#5389c6";
   if (univ == "SMU" || univ.includes("상명대")) return "#1f519b";
   if (univ == "SGU" || univ.includes("서강대")) return "#B0232A";
@@ -104,6 +104,7 @@ function getColorByUnivName(univ) {
   if (univ == "KAU" || univ.includes("한국항공대")) return "#302475";
   if (univ == "HSU" || univ.includes("한성대")) return "#62b5e5";
   if (univ == "HYU" || univ.includes("한양대")) return "#003c71";
+  if (univ == "HOSEO" || univ.includes("호서대")) return "#08449a";
   if (univ == "HIU" || univ.includes("홍익대")) return "#002c62";
 
   return "Not Found";
