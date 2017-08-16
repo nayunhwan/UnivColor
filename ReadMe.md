@@ -6,6 +6,7 @@ This is a Simple Javascript function for getting Primary Color of University to 
 ## University List
 * Adelphi University
 * UC Berkeley
+* University of Waterloo
 * 가야대
 * 가천대
 * 가톨릭대

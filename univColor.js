@@ -2,6 +2,7 @@
 function getColorByUnivName(univ) {
   if (univ == "AU" || univ.includes("Adelphi University")) return "#FDB813";
   if (univ == "UCB" || univ.toLowerCase().replace(/\s+/g, '').includes("berkeley")) return "#fdb515";
+  if (univ == "UW" || univ.includes("Waterloo")) return "#FFD54F";
   if (univ == "KYU" || univ.includes("가야대")) return "#114fa1";
   if (univ == "GCHU" || univ.includes("가천대")) return "#00458c";
   if (univ == "CUK" || univ.includes("가톨릭대")) return "#003594";
