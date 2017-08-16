@@ -4,6 +4,7 @@ This is a Simple Javascript function for getting Primary Color of University to 
 [DEMO Link](https://nayunhwan.github.io/UnivColor/)
 
 ## University List
+* Adelphi University
 * UC Berkeley
 * 가야대
 * 가천대
