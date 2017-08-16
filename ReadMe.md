@@ -9,6 +9,7 @@ This is a Simple Javascript function for getting Primary Color of University to 
 * Stanford University
 * UC Berkeley
 * University of Rochester
+* University of Texas Rio Grande Valley
 * University of Washington
 * University of Waterloo
 * William & Mary College
