@@ -5,7 +5,11 @@ This is a Simple Javascript function for getting Primary Color of University to 
 
 ## University List
 * Adelphi University
+* Havard University
+* Stanford University
 * UC Berkeley
+* University of Rochester
+* University of Washington
 * University of Waterloo
 * William & Mary College
 * 가야대
