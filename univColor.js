@@ -111,10 +111,10 @@ function getColorByUnivName(univ) {
   if (univ == "SSU" || univ.includes("숭실대")) return "#4badcd";
   if (univ == "SWC" || univ.includes("숭의여대")) return "#062d8f";
 
-  if (univ == "AJU" || univ.includes("아주대")) return "#0072ce";
+  if (univ == "AJOU" || univ.includes("아주대")) return "#0072ce";
   if (univ == "YSU" || univ.includes("연세대")) return "#16407d";
   if (univ == "YU" || univ.includes("영남대")) return "#003e7d";
-  if (univ == "INU" || univ.includes("인천대")) return "#0D3BE6";
+  if (univ == "INU" || univ.includes("인천대")) return "#01499a";
   if (univ == "INHA" || univ.includes("인하대")) return "#0267b9";
 
   if (univ == "JNU" || univ.includes("전남대")) return "#00913F";
