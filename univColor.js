@@ -95,6 +95,7 @@ function getColorByUnivName(univ) {
   if (univ == "SKHU" || univ.includes("성공회대")) return "#006BB1";
   if (univ == "SKKU" || univ.includes("성균관대")) return "#8DC63F";
   if (univ == "SJU" || univ.includes("세종대")) return "#ba0c2f";
+    if (univ == "SCH" || univ.includes("순천향대")) return "#C7EA46";
   if (univ == "SSU" || univ.includes("숭실대")) return "#4badcd";
   if (univ == "SWC" || univ.includes("숭의여대")) return "#062d8f";
 
