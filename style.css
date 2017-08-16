@@ -52,3 +52,25 @@ ul {
     background:white;
     z-index: 3;
 }
+
+@media screen {
+    /* Smartphone */
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+}
+@media screen and (min-width: 768px) {
+    /* Tablet */
+    .container {
+        width: 75%;
+        margin: auto;
+    }
+}
+@media screen and (min-width: 992px) {
+    /* Standard */
+    .container {
+        width: 50%;
+        margin: auto;
+    }
+}
