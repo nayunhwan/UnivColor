@@ -4,7 +4,16 @@ This is a Simple Javascript function for getting Primary Color of University to 
 [DEMO Link](https://nayunhwan.github.io/UnivColor/)
 
 ## University List
+* Adelphi University
+* Carnegie Mellon University
+* Havard University
+* Stanford University
 * UC Berkeley
+* University of Rochester
+* University of Texas Rio Grande Valley
+* University of Washington
+* University of Waterloo
+* College of William & Mary
 * 가야대
 * 가천대
 * 가톨릭대
@@ -85,14 +94,18 @@ This is a Simple Javascript function for getting Primary Color of University to 
 * 서울대
 * 서울과학기술대
 * 서울시립대
+* 선문대
 * 성공회대
 * 성균관대
+* 세명대
 * 세종대
+* 순천향대
 * 숭실대
 * 숭의여대
 * 아주대
 * 연세대
 * 영남대
+* 인하대
 * 전남대
 * 전북대
 * 전주대

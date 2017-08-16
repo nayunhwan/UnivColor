@@ -1,6 +1,18 @@
 // For University Theme Color
 function getColorByUnivName(univ) {
-  if (univ == "UCB" || univ.toLowerCase().replace(/\s+/g, '').includes("berkeley")) return "#fdb515";
+  // Foregin Universities
+  if (univ == "AU" || univ.includes("Adelphi")) return "#FDB813";
+  if (univ == "Harvard" || univ.includes("하버드")) return "#C90016";
+  if (univ == "UCB" || univ.toLowerCase().replace(/\s+/g, '').includes("berkeley") || univ.toLowerCase().replace(/\s+/g, '').includes("버클리대")) return "#FDB515";
+  if (univ == "Stanford" || univ.includes("스탠포드") || univ.includes("스탠퍼드")) return "#A8003B";
+  if (univ == "UR" || (univ.toLowerCase().replace(/\s+/g, '').includes("rochester") && univ.toLowerCase().replace(/\s+/g, '').includes("university")) || univ.toLowerCase().replace(/\s+/g, '').includes("로체스터대")) return "#FFD100";
+  if (univ == "UTRGV" || univ.includes("UT Rio Grande Valley") || univ.includes("University of Texas Rio Grande Valley")) return "#F05023";
+  if (univ.includes("Washington") || univ.toLowerCase().replace(/\s+/g, '').includes("워싱턴대")) return "#4B2E83";
+  if (univ.includes("Waterloo") || univ.toLowerCase().replace(/\s+/g, '').includes("워털루대")) return "#FFD54F";
+  if (univ == "WM" || univ.toLowerCase().replace(/\s+/g, '').includes("william&mary")) return "#006633";
+  if (univ == "CMU" || univ.toLowerCase().replace(/\s+/g, '').includes("carnegiemellon") || univ.toLowerCase().replace(/\s+/g, '').includes("카네기멜론")) return "#CC002B";
+
+  // Korean Universities
   if (univ == "KYU" || univ.includes("가야대")) return "#114fa1";
   if (univ == "GCHU" || univ.includes("가천대")) return "#00458c";
   if (univ == "CUK" || univ.includes("가톨릭대")) return "#003594";
@@ -87,15 +99,20 @@ function getColorByUnivName(univ) {
   if (univ == "SNU" || univ.includes("서울대")) return "#20408e";
   if (univ == "SeoulTech" || univ.includes("서울과학기술대") || univ == "서울과기대") return "#00205b";
   if (univ == "UOS" || univ.includes("서울시립대")) return "#151f6d";
+  if (univ == "SMU" || univ.includes("선문대")) return "#006a74";
   if (univ == "SKHU" || univ.includes("성공회대")) return "#006BB1";
   if (univ == "SKKU" || univ.includes("성균관대")) return "#8DC63F";
+  if (univ == "SEMYUNG" || univ.includes("세명대")) return "#005DAA";
   if (univ == "SJU" || univ.includes("세종대")) return "#ba0c2f";
+    if (univ == "SCH" || univ.includes("순천향대")) return "#A6CE39";
   if (univ == "SSU" || univ.includes("숭실대")) return "#4badcd";
   if (univ == "SWC" || univ.includes("숭의여대")) return "#062d8f";
 
   if (univ == "AJU" || univ.includes("아주대")) return "#0072ce";
   if (univ == "YSU" || univ.includes("연세대")) return "#16407d";
   if (univ == "YU" || univ.includes("영남대")) return "#003e7d";
+  if (univ == "INHA" || univ.includes("인하대")) return "#0267b9";
+
   if (univ == "JNU" || univ.includes("전남대")) return "#00913F";
   if (univ == "JBNU" || univ.includes("전북대")) return "#56296f";
   if (univ == "JJU" || univ.includes("전주대")) return "#006ba6";
@@ -103,11 +120,11 @@ function getColorByUnivName(univ) {
 
   if (univ == "CNU" || univ.includes("충남대")) return "#003f98";
   if (univ == "CBNU" ||univ.includes("충북대")) return "#9B1F4E";
-  
+
   if (univ == "KAIST" || univ.includes("카이스트")) return "#004191";
-  
+
   if (univ == "PTU" || univ.includes("평택대")) return "#003e15";
-  
+
   if (univ == "HUFS" || univ.includes("한국외국어대")) return "#00677F";
   if (univ == "KAU" || univ.includes("한국항공대")) return "#302475";
   if (univ == "HGU" || univ.includes("한동대")) return "#13eac9";
