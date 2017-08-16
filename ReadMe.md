@@ -6,6 +6,7 @@ This is a Simple Javascript function for getting Primary Color of University to 
 ## University List
 * Adelphi University
 * Carnegie Mellon University
+* College of William & Mary
 * Havard University
 * Stanford University
 * UC Berkeley
@@ -13,7 +14,6 @@ This is a Simple Javascript function for getting Primary Color of University to 
 * University of Texas Rio Grande Valley
 * University of Washington
 * University of Waterloo
-* College of William & Mary
 * 가야대
 * 가천대
 * 가톨릭대
