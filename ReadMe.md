@@ -118,6 +118,7 @@ This is a Simple Javascript function for getting Primary Color of University to 
 * 한동대
 * 한국외국어대
 * 한국항공대
+* 한밭대
 * 한성대
 * 한양대
 * 호서대
