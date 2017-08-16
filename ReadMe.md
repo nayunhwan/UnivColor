@@ -7,6 +7,14 @@ This is a Simple Javascript function for getting Primary Color of University to 
 * Manouba University
 * Tunis University
 * Tunis El Manar University
+* Sfax University
+* Sousse University
+* Monastir University
+* Gafsa University
+* Ez-zitouna University
+* Gabes University
+* University of Jendouba
+* University of Carthage
 
 * Adelphi University
 * Carnegie Mellon University
