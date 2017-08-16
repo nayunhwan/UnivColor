@@ -105,6 +105,7 @@ This is a Simple Javascript function for getting Primary Color of University to 
 * 아주대
 * 연세대
 * 영남대
+* 인천대
 * 인하대
 * 전남대
 * 전북대
