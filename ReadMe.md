@@ -5,6 +5,7 @@ This is a Simple Javascript function for getting Primary Color of University to 
 
 ## University List
 * Adelphi University
+* Carnegie Mellon University
 * Havard University
 * Stanford University
 * UC Berkeley
