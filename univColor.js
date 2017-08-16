@@ -128,6 +128,7 @@ function getColorByUnivName(univ) {
   if (univ == "HUFS" || univ.includes("한국외국어대")) return "#00677F";
   if (univ == "KAU" || univ.includes("한국항공대")) return "#302475";
   if (univ == "HGU" || univ.includes("한동대")) return "#13eac9";
+  if (univ == "HSU" || univ.includes("한밭대")) return "#6774D9";
   if (univ == "HSU" || univ.includes("한성대")) return "#62b5e5";
   if (univ == "HYU" || univ.includes("한양대")) return "#003c71";
   if (univ == "HOSEO" || univ.includes("호서대")) return "#08449a";
@@ -167,7 +168,7 @@ var univNames = ["Adelphi", "CMU", "Harvard", "Stanford",
       "목원대", "목포가톨릭대", "목포대", "목포해양대", "배재대", "백석대", "부경대", "부산가톨릭대", "부산대",
       "부산외국어대", "부산장신대", "삼육대", "상명대", "서강대", "서경대", "서울대", "서울과학기술대",
       "서울시립대", "선문대", "성공회대", "성균관대","세명대", "세종대", "순천향대", "숭실대", "숭의여대", "아주대", "연세대", "영남대", "인하대", "전남대", "전북대", "전주대", "중앙대",
-      "충남대", "충북대", "카이스트", "평택대", "한국외국어대", "한국항공대", "한동대", "한성대", "한양대", "호서대", "홍익대"];
+      "충남대", "충북대", "카이스트", "평택대", "한국외국어대", "한국항공대", "한동대", "한밭대","한성대", "한양대", "호서대", "홍익대"];
 
 var univHash = initialUnivColor(univNames);
 
