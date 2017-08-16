@@ -6,6 +6,7 @@ function getColorByUnivName(univ) {
   if (univ == "Stanford" || univ.includes("스탠포드") || univ.includes("스탠퍼드")) return "#A8003B";
   if (univ == "UR" || (univ.toLowerCase().replace(/\s+/g, '').includes("rochester") && univ.toLowerCase().replace(/\s+/g, '').includes("university")) || univ.toLowerCase().replace(/\s+/g, '').include("로체스터대")) return "FFD100";
   if (univ == "Harvard" || univ.includes("하버드")) return "#C90016";
+  if (univ.includes("Washington") || univ.toLowerCase().replace(/\s+/g, '').includes("워싱턴대")) return "4B2E83";
   if (univ.includes("Waterloo")) return "#FFD54F";
 
   // Korean Universities
