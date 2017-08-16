@@ -72,7 +72,7 @@
 
    $(function(){
 
-      var univListTemplate = sortedByColor.map(function(univ, i) {
+       var univListTemplate = sortedByColor.map(function (univ) {
         var box = $('<div/>').addClass('colorBox').css({'background': univ.color}).text(univ.name);
         return box.get(0);
       });
