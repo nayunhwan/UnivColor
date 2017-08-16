@@ -34,6 +34,11 @@
         return color = '#' + parts.join('');
     }
 
+    function checkSafari() {
+        if(navigator.userAgent.search("Safari") >= 0) return true;
+        else return false;
+    }
+
     var univNames = ["Adelphi", "CMU", "Harvard", "Stanford",
           "UC Berkeley", "University of Rochester", "UT Rio Grande Valley",
           "University of Washington", "University of Waterloo",
@@ -60,6 +65,10 @@
 
         var univListTemplate = sortedByColor.map(function(univ, i) {
             var box = $('<div/>').addClass('colorBox').css({'background': univ.color}).text(univ.name);
+
+            // If the browser is Safari, add class ".safari"
+            if(checkSafari()) box.addClass('safari');
+
             return box.get(0);
         });
 
@@ -85,11 +94,19 @@
         });
 
         $('.colorBox').hover(function(){
-          $(this).css("opacity", "0.8");
-          $(this).css("font-size", "6.5px");
+            $(this).css("opacity", "0.8");
+            if(checkSafari()) {
+                $(this).css("font-size", "10px");
+            } else {
+                $(this).css("font-size", "6.5px");
+            }
         }, function() {
-          $(this).css("opacity", "1.0");
-          $(this).css("font-size", "5px");
+            $(this).css("opacity", "1.0");
+            if(checkSafari()) {
+                $(this).css("font-size", "9px");
+            } else {
+                $(this).css("font-size", "5px");
+            }
         });
     });
   </script>

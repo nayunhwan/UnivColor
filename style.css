@@ -43,6 +43,10 @@ ul {
     overflow: hidden;
 }
 
+.colorBox.safari {
+    font-size: 9px;
+}
+
 .ui-autocomplete{
     background:white;
     z-index: 3;
@@ -58,14 +62,22 @@ ul {
 @media screen and (min-width: 768px) {
     /* Tablet */
     .container {
-        width: 75%;
+        width: 80%;
         margin: auto;
     }
 }
 @media screen and (min-width: 992px) {
-    /* Standard */
+    /* Standard Display */
     .container {
-        width: 50%;
+        width: 70%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    /* Wide Display */
+    .container {
+        width: 60%;
         margin: auto;
     }
 }
