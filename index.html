@@ -1,34 +1,61 @@
 <!Doctype html>
 <html>
-
 <head>
   <meta charset="utf-8" />
   <title>Univ Color</title>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script type="text/javascript" src="./univColor.js"></script>
-  <script type="text/javascript" src="./lib/surfacecurve-color.js"></script>
-  <script src="./lib/Semantic/semantic.js"></script>
-  <link rel="stylesheet" type="text/css" href="./lib/Semantic/semantic.css">
+    <link href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./univColor.js"></script>
+    <script type="text/javascript" src="./lib/surfacecurve-color.js"></script>
+    <script src="./lib/Semantic/semantic.js"></script>
+    <link rel="stylesheet" type="text/css" href="./lib/Semantic/semantic.css">
   <style>
+      *{
+          margin: 0;
+          padding: 0;
+          font-family: "Nanum Gothic", sans-serif;;
+      }
     .ui.title {
       text-align: center;
-      margin: 8em 0;
+        margin-top: 40px;
     }
-
+    .hexBox {
+        text-align: center;
+        font-size: 22pt;
+        padding: 4px;
+        margin-bottom: 12px;
+        display: none;
+    }
     .container {
       width: 50%;
       margin: auto;
     }
 
+    .search {
+        width: 100%;
+        margin: 12px 0px;
+    }
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     .colorBox {
-      display: inline-block;
       color: white;
-      font-size: 5px;
-      line-height: 82px;
+      font-size: 14pt;
+      line-height: 80px;
       text-align: center;
-      width: 82px;
-      height: 82px;
+      width: 80px;
+      height: 80px;
       cursor: pointer;
+        word-wrap:break-word;
+        overflow: hidden;
+    }
+
+    .colorBox:hover {
+        transform: scale(1.3);
+        box-shadow: 2px 2px 2px 0px black;
     }
   </style>
   <script>
@@ -77,15 +104,16 @@
         return box.get(0);
       });
 
-      $('.container').html(univListTemplate);
+      $('#university').html(univListTemplate);
 
-      $('#getColor').on('click', function(){
-        var color = getColorByUnivName($('#input').val());
+      $('#input').on('keyup', function(e) {
+          console.log(e.target.value)
+        var color = getColorByUnivName(e.target.value);
         var $haxCode = $('#hexCode');
         if(color === 'Not Found') {
-          $haxCode.css({'background': '#ffffff', 'color': '#000000'}).text(color);
+          $haxCode.css({display: "none"}).text(color);
         } else {
-          $haxCode.css({'background': color, 'color': '#ffffff'}).text(color);
+          $haxCode.css({display: "block", 'background': color, 'color': '#ffffff'}).text(color);
         }
       });
 
@@ -93,38 +121,28 @@
       $('.colorBox').click(function(){
         var $haxCode = $('#hexCode');
         var color = hexc($(this).css('background-color'));
-        $haxCode.css({'background': color, 'color': '#ffffff'}).text(color);
-      });
-      $('.colorBox').hover(function(){
-        $(this).css("opacity", "0.8");
-        $(this).css("font-size", "6.5px");
-      }, function() {
-        $(this).css("opacity", "1.0");
-        $(this).css("font-size", "5px");
+        $haxCode.css({'background': color, 'color': '#ffffff', height: "32px"}).text(color);
       });
    });
   </script>
 </head>
 <body>
-  <div class="ui title">
-    <h1 class="ui huge header">Univ Color
-      <div class="sub header">
-        The Color System of Universities
+    <div class="container">
+      <div class="ui title">
+        <h1 class="ui huge header">Univ Color
+          <div class="sub header">
+            The Color System of Universities
+          </div>
+        </h1>
+        <a href="https://github.com/nayunhwan/UnivColor" class="ui button basic"><i class="github icon"></i> Github</a>
       </div>
-    </h1>
-    <a href="https://github.com/nayunhwan/UnivColor" class="ui button basic"><i class="github icon"></i> Github</a>
-    <br />
-    <br />
-    <h3 id="hexCode">Input Name of University</h3>
-    <div>
-      <div class="ui input focus">
-        <input id="input" type="text" placeholder="Search...">
+        <div class="ui input focus search">
+            <input id="input" type="text" placeholder="Search..." />
+        </div>
+        <div id="hexCode" class="hexBox"></div>
+      <div id="university" class="flex">
       </div>
-      <button id="getColor" class="ui button basic">Get Color Code</button>
     </div>
-  </div>
-
-  <div class="container"></div>
 </body>
 
 </html>
