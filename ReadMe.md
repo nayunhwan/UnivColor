@@ -86,6 +86,7 @@ This is a Simple Javascript function for getting Primary Color of University to 
 * 서울대
 * 서울과학기술대
 * 서울시립대
+* 선문대
 * 성공회대
 * 성균관대
 * 세종대
