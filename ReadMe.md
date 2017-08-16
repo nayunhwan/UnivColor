@@ -8,6 +8,7 @@ This is a Simple Javascript function for getting Primary Color of University to 
 * Carnegie Mellon University
 * College of William & Mary
 * Havard University
+* Singapore Management University
 * Stanford University
 * UC Berkeley
 * University of Rochester
