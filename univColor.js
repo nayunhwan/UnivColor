@@ -1,6 +1,6 @@
 // For University Theme Color
 function getColorByUnivName(univ) {
-  if (univ == "AU" || univ.includes("Adelphi University")) return "#FDB813";
+  if (univ == "AU" || univ.includes("Adelphi")) return "#FDB813";
   if (univ == "UCB" || univ.toLowerCase().replace(/\s+/g, '').includes("berkeley")) return "#fdb515";
   if (univ == "UW" || univ.includes("Waterloo")) return "#FFD54F";
   if (univ == "KYU" || univ.includes("가야대")) return "#114fa1";
@@ -108,11 +108,11 @@ function getColorByUnivName(univ) {
 
   if (univ == "CNU" || univ.includes("충남대")) return "#003f98";
   if (univ == "CBNU" ||univ.includes("충북대")) return "#9B1F4E";
-  
+
   if (univ == "KAIST" || univ.includes("카이스트")) return "#004191";
-  
+
   if (univ == "PTU" || univ.includes("평택대")) return "#003e15";
-  
+
   if (univ == "HUFS" || univ.includes("한국외국어대")) return "#00677F";
   if (univ == "KAU" || univ.includes("한국항공대")) return "#302475";
   if (univ == "HGU" || univ.includes("한동대")) return "#13eac9";
