@@ -1,8 +1,14 @@
 // For University Theme Color
 function getColorByUnivName(univ) {
+  // Foregin Universities
   if (univ == "AU" || univ.includes("Adelphi")) return "#FDB813";
-  if (univ == "UCB" || univ.toLowerCase().replace(/\s+/g, '').includes("berkeley")) return "#fdb515";
-  if (univ == "UW" || univ.includes("Waterloo")) return "#FFD54F";
+  if (univ == "UCB" || univ.toLowerCase().replace(/\s+/g, '').includes("berkeley") || univ.toLowerCase().replace(/\s+/g, '').includes("버클리대")) return "#fdb515";
+  if (univ == "Stanford" || univ.includes("스탠포드") || univ.includes("스탠퍼드")) return "#A8003B";
+  if (univ == "UR" || (univ.toLowerCase().replace(/\s+/g, '').includes("rochester") && univ.toLowerCase().replace(/\s+/g, '').includes("university")) || univ.toLowerCase().replace(/\s+/g, '').include("로체스터대")) return "FFD100";
+  if (univ == "Harvard" || univ.includes("하버드")) return "#C90016";
+  if (univ.includes("Waterloo")) return "#FFD54F";
+
+  // Korean Universities
   if (univ == "KYU" || univ.includes("가야대")) return "#114fa1";
   if (univ == "GCHU" || univ.includes("가천대")) return "#00458c";
   if (univ == "CUK" || univ.includes("가톨릭대")) return "#003594";
