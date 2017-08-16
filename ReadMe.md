@@ -1,19 +1,20 @@
-# Univ Color
+﻿# Univ Color
 This is a Simple Javascript function for getting Primary Color of University to Hex Code
 
 [DEMO Link](https://nayunhwan.github.io/UnivColor/)
 
 ## University List
-* Manouba University
-* Tunis University
-* Tunis El Manar University
 
 * Adelphi University
+* Boston University
 * Carnegie Mellon University
 * College of William & Mary
 * Havard University
+* Manouba University
 * Singapore Management University
 * Stanford University
+* Tunis El Manar University
+* Tunis University
 * UC Berkeley
 * University of Rochester
 * University of Texas Rio Grande Valley

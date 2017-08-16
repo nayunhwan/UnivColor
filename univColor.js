@@ -5,7 +5,7 @@ function getColorByUnivName(univ) {
     if (univ == "UTM" || (univ.toLowerCase().replace(/\s+/g, ' ').includes("tunis el manar") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#ac0c0c";
     if (univ == "UTUNIS" || (univ.toLowerCase().replace(/\s+/g, '').includes("tunis") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#9198a0";
 
-  // Foregin Universities
+  // Foreign Universities
   if (univ == "AU" || univ.includes("Adelphi")) return "#FDB813";
   if (univ == "Harvard" || univ.includes("하버드")) return "#C90016";
   if (univ == "UCB" || univ.toLowerCase().replace(/\s+/g, '').includes("berkeley") || univ.toLowerCase().replace(/\s+/g, '').includes("버클리대")) return "#FDB515";
@@ -17,7 +17,7 @@ function getColorByUnivName(univ) {
   if (univ == "WM" || univ.toLowerCase().replace(/\s+/g, '').includes("william&mary")) return "#006633";
   if (univ == "CMU" || univ.toLowerCase().replace(/\s+/g, '').includes("carnegiemellon") || univ.toLowerCase().replace(/\s+/g, '').includes("카네기멜론")) return "#CC002B";
   if (univ == "SMU" || univ.toLowerCase().replace(/\s+/g, '').includes("singaporemanagementuniversity")) return "#223385";
-
+  if (univ == "BU" || univ.toLowerCase() / replace(/\s+/g, '').includes("bostonuniversity") || univ.toLowerCase().replace(/\s+/g, '').includes("보스턴대학교")) return "#CC0000"; // 주의: Boston University와 Boston College 둘 다 보스턴대학교로 번역됩니다.
   
 
   // Korean Universities
