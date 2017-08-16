@@ -166,16 +166,17 @@ $(function(){
     $('#university').html(univListTemplate);
 
     $('#input').on('keyup', function(e) {
-        console.log(e.target.value)
         var color = getColorByUnivName(e.target.value);
         var $haxCode = $('#hexCode');
         if(color === 'Not Found') {
-            $haxCode.css({display: "none"}).text(color);
+            //$haxCode.css({display: "none"}).text(color);
         } else {
-            $haxCode.css({display: "block", 'background': color, 'color': '#ffffff'}).text(color);
+            $haxCode.css({'background': color, 'color': '#ffffff'}).text(color);
         }
     });
-
+    $('#input').autocomplete({
+        source: univNames
+    });
 
     $('.colorBox').click(function(){
         var $haxCode = $('#hexCode');
