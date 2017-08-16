@@ -1,5 +1,10 @@
 // For University Theme Color
 function getColorByUnivName(univ) {
+    //Tunisian Universities
+    if (univ == "UMA" || (univ.toLowerCase().replace(/\s+/g, '').includes("manouba") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#004c96";
+    if (univ == "UTM" || (univ.toLowerCase().replace(/\s+/g, ' ').includes("tunis el manar") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#ac0c0c";
+    if (univ == "UTUNIS" || (univ.toLowerCase().replace(/\s+/g, '').includes("tunis") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#9198a0";
+
   // Foregin Universities
   if (univ == "AU" || univ.includes("Adelphi")) return "#FDB813";
   if (univ == "Harvard" || univ.includes("하버드")) return "#C90016";
