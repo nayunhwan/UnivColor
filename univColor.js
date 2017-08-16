@@ -87,6 +87,7 @@ function getColorByUnivName(univ) {
   if (univ == "SNU" || univ.includes("서울대")) return "#20408e";
   if (univ == "SeoulTech" || univ.includes("서울과학기술대") || univ == "서울과기대") return "#00205b";
   if (univ == "UOS" || univ.includes("서울시립대")) return "#151f6d";
+  if (univ == "SMU" || univ.includes("선문대")) return "#006a74";
   if (univ == "SKHU" || univ.includes("성공회대")) return "#006BB1";
   if (univ == "SKKU" || univ.includes("성균관대")) return "#8DC63F";
   if (univ == "SJU" || univ.includes("세종대")) return "#ba0c2f";
