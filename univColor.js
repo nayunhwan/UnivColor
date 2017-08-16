@@ -4,12 +4,12 @@
  * @return String the color value of univ, in "#RRGGBB" hex format
  */
 function getColorByUnivName(univ) {
-    //Tunisian Universities
+    // Universities in Tunisia
     if (univ == "UMA" || (univ.toLowerCase().replace(/\s+/g, '').includes("manouba") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#004c96";
     if (univ == "UTM" || (univ.toLowerCase().replace(/\s+/g, ' ').includes("tunis el manar") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#ac0c0c";
     if (univ == "UTUNIS" || (univ.toLowerCase().replace(/\s+/g, '').includes("tunis") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#9198a0";
 
-    // Foregin Universities
+    // Universities outside of the Republic of Korea
     if (univ == "AU" || univ.includes("Adelphi")) return "#FDB813";
     if (univ == "Harvard" || univ.includes("하버드")) return "#C90016";
     if (univ == "UCB" || univ.toLowerCase().replace(/\s+/g, '').includes("berkeley") || univ.toLowerCase().replace(/\s+/g, '').includes("버클리대")) return "#FDB515";
@@ -22,7 +22,7 @@ function getColorByUnivName(univ) {
     if (univ == "CMU" || univ.toLowerCase().replace(/\s+/g, '').includes("carnegiemellon") || univ.toLowerCase().replace(/\s+/g, '').includes("카네기멜론")) return "#CC002B";
     if (univ == "SMU" || univ.toLowerCase().replace(/\s+/g, '').includes("singaporemanagementuniversity")) return "#223385";
 
-    // Korean Universities
+    // Universities in the Republic of Korea
     if (univ == "KYU" || univ.includes("가야대")) return "#114fa1";
     if (univ == "GCHU" || univ.includes("가천대")) return "#00458c";
     if (univ == "CUK" || univ.includes("가톨릭대")) return "#003594";
