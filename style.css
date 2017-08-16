@@ -33,7 +33,7 @@ ul {
 
 .colorBox {
     color: white;
-    font-size: 14pt;
+    font-size: 5px;
     line-height: 80px;
     text-align: center;
     width: 80px;
@@ -41,11 +41,6 @@ ul {
     cursor: pointer;
     word-wrap:break-word;
     overflow: hidden;
-}
-
-.colorBox:hover {
-    transform: scale(1.3);
-    box-shadow: 2px 2px 2px 0px black;
 }
 
 .ui-autocomplete{

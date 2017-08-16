@@ -111,6 +111,7 @@ function getColorByUnivName(univ) {
   if (univ == "AJU" || univ.includes("아주대")) return "#0072ce";
   if (univ == "YSU" || univ.includes("연세대")) return "#16407d";
   if (univ == "YU" || univ.includes("영남대")) return "#003e7d";
+  if (univ == "INU" || univ.includes("인천대")) return "#0D3BE6";
   if (univ == "INHA" || univ.includes("인하대")) return "#0267b9";
 
   if (univ == "JNU" || univ.includes("전남대")) return "#00913F";
@@ -136,71 +137,3 @@ function getColorByUnivName(univ) {
 
   return "Not Found";
 }
-
-function initialUnivColor(univNames) {
-    return univNames.map(function(name){
-        var univObject = {};
-        univObject.color = getColorByUnivName(name);
-        univObject.name = name;
-        return univObject;
-    });
-}
-
-function hexc(colorval) {
-    var parts = colorval.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
-    delete(parts[0]);
-    for (var i = 1; i <= 3; ++i) {
-        parts[i] = parseInt(parts[i]).toString(16).toUpperCase();
-        if (parts[i].length == 1) parts[i] = '0' + parts[i];
-    }
-    return color = '#' + parts.join('');
-}
-
-var univNames = ["Adelphi", "CMU", "Harvard", "Stanford",
-      "UC Berkeley", "University of Rochester", "UT Rio Grande Valley", "University of Washington", "University of Waterloo",
-      "William & Mary", "가야대", "가천대", "가톨릭대", "가톨릭관동대", "감리교신학대", "강남대",
-      "강릉원주대", "강원대", "건국대", "건양대", "경기대", "경남과학기술대", "경남대", "경동대",
-      "경북대", "경상대", "경성대", "경운대", "경일대", "경주대", "경희대", "계명대", "계명문화대", "고려대", "고신대",
-      "공주대", "광신대", "광운대", "광주가톨릭대", "광주대", "광주여자대", "국민대", "군산대", "극동대",
-      "금강대", "금오공대", "김천대", "꽃동네대", "나사렛대", "남부대", "남서울대", "단국대", "대구가톨릭대",
-      "대구대", "대구예술대", "대구한의대", "대신대", "대전가톨릭대", "대전대", "대전신학대", "대진대", "덕성여대",
-      "동국대", "동덕여대", "동명대", "동서대", "동신대", "동아대", "동양대", "동의대", "루터대", "명지대",
-      "목원대", "목포가톨릭대", "목포대", "목포해양대", "배재대", "백석대", "부경대", "부산가톨릭대", "부산대",
-      "부산외국어대", "부산장신대", "삼육대", "상명대", "서강대", "서경대", "서울대", "서울과학기술대",
-      "서울시립대", "선문대", "성공회대", "성균관대","세명대", "세종대", "순천향대", "숭실대", "숭의여대", "아주대", "연세대", "영남대", "인하대", "전남대", "전북대", "전주대", "중앙대",
-      "충남대", "충북대", "카이스트", "평택대", "한국외국어대", "한국항공대", "한동대", "한밭대","한성대", "한양대", "호서대", "홍익대"];
-
-var univHash = initialUnivColor(univNames);
-
-var sortedByColor = univHash.sort(function(colorA, colorB) {
-    return surfacecurve.color(colorA.color).hue() - surfacecurve.color(colorB.color).hue();
-});
-
-$(function(){
-
-    var univListTemplate = sortedByColor.map(function(univ, i) {
-        var box = $('<div/>').addClass('colorBox').css({'background': univ.color}).text(univ.name);
-        return box.get(0);
-    });
-
-    $('#university').html(univListTemplate);
-
-    $('#input').on('keyup', function(e) {
-        var color = getColorByUnivName(e.target.value);
-        var $haxCode = $('#hexCode');
-        if(color === 'Not Found') {
-            //$haxCode.css({display: "none"}).text(color);
-        } else {
-            $haxCode.css({'background': color, 'color': '#ffffff'}).text(color);
-        }
-    });
-    $('#input').autocomplete({
-        source: univNames
-    });
-
-    $('.colorBox').click(function(){
-        var $haxCode = $('#hexCode');
-        var color = hexc($(this).css('background-color'));
-        $haxCode.css({'background': color, 'color': '#ffffff', height: "32px"}).text(color);
-    });
-});
