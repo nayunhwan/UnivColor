@@ -7,7 +7,7 @@ This is a Simple Javascript function for getting Primary Color of University to 
 * Adelphi University
 * UC Berkeley
 * University of Waterloo
-* William & Mary College
+* College of William & Mary
 * 가야대
 * 가천대
 * 가톨릭대
