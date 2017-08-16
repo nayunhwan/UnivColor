@@ -2,12 +2,12 @@
 function getColorByUnivName(univ) {
   // Foregin Universities
   if (univ == "AU" || univ.includes("Adelphi")) return "#FDB813";
-  if (univ == "UCB" || univ.toLowerCase().replace(/\s+/g, '').includes("berkeley") || univ.toLowerCase().replace(/\s+/g, '').includes("버클리대")) return "#fdb515";
+  if (univ == "UCB" || univ.toLowerCase().replace(/\s+/g, '').includes("berkeley") || univ.toLowerCase().replace(/\s+/g, '').includes("버클리대")) return "#FDB515";
   if (univ == "Stanford" || univ.includes("스탠포드") || univ.includes("스탠퍼드")) return "#A8003B";
-  if (univ == "UR" || (univ.toLowerCase().replace(/\s+/g, '').includes("rochester") && univ.toLowerCase().replace(/\s+/g, '').includes("university")) || univ.toLowerCase().replace(/\s+/g, '').include("로체스터대")) return "FFD100";
+  if (univ == "UR" || (univ.toLowerCase().replace(/\s+/g, '').includes("rochester") && univ.toLowerCase().replace(/\s+/g, '').includes("university")) || univ.toLowerCase().replace(/\s+/g, '').include("로체스터대")) return "#FFD100";
   if (univ == "Harvard" || univ.includes("하버드")) return "#C90016";
-  if (univ.includes("Washington") || univ.toLowerCase().replace(/\s+/g, '').includes("워싱턴대")) return "4B2E83";
-  if (univ.includes("Waterloo") || univ.toLowerCase().replacE(/\s+/g, '').includes("워털루대")) return "#FFD54F";
+  if (univ.includes("Washington") || univ.toLowerCase().replace(/\s+/g, '').includes("워싱턴대")) return "#4B2E83";
+  if (univ.includes("Waterloo") || univ.toLowerCase().replace(/\s+/g, '').includes("워털루대")) return "#FFD54F";
 
   // Korean Universities
   if (univ == "KYU" || univ.includes("가야대")) return "#114fa1";
