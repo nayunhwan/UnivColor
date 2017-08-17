@@ -138,7 +138,7 @@ function getColorByUnivName(univ) {
   if(univ == "KoreaTech" || univ.indludes("한국기술교육대") || univ =="코리아텍") return "#FF7F00";
   if (univ == "HUFS" || univ.includes("한국외국어대")) return "#00677F";
   if (univ == "KAU" || univ.includes("한국항공대")) return "#302475";
-  if (univ == "HGU" || univ.includes("한동대")) return "#13eac9";
+  if (univ == "HGU" || univ.includes("한동대")) return "#00579c";
   if (univ == "HBNU" || univ.includes("한밭대")) return "#6774D9";
   if (univ == "HSU" || univ.includes("한성대")) return "#62b5e5";
   if (univ == "HYU" || univ.includes("한양대")) return "#003c71";
