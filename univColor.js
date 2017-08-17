@@ -4,10 +4,18 @@
  * @return String the color value of univ, in "#RRGGBB" hex format
  */
 function getColorByUnivName(univ) {
-  // Universities in Tunisia
+// Universities in Tunisia
   if (univ == "UMA" || (univ.toLowerCase().replace(/\s+/g, '').includes("manouba") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#004c96";
   if (univ == "UTM" || (univ.toLowerCase().replace(/\s+/g, ' ').includes("tunis el manar") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#ac0c0c";
   if (univ == "UTUNIS" || (univ.toLowerCase().replace(/\s+/g, '').includes("tunis") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#9198a0";
+  if (univ == "USS" || (univ.toLowerCase().replace(/\s+/g, '').includes("sfax") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#c48f00";
+  if (univ == "UC" || (univ.toLowerCase().replace(/\s+/g, '').includes("sousse") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#10457d";
+  if (univ == "UM" || (univ.toLowerCase().replace(/\s+/g, '').includes("monastir") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#305086";
+  if (univ == "UGAF" || (univ.toLowerCase().replace(/\s+/g, '').includes("gafsa") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#020181";
+  if (univ == "UZ" || (univ.toLowerCase().replace(/\s+/g, '').includes("ez-zitouna") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#c68ed4";
+  if (univ == "UNIVGB" || (univ.toLowerCase().replace(/\s+/g, '').includes("gabes") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#10a0f1";
+  if (univ == "UJ" || (univ.toLowerCase().replace(/\s+/g, '').includes("jendouba") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#ae2543";
+  if (univ == "UCAR" || (univ.toLowerCase().replace(/\s+/g, '').includes("carthage") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#005289";
 
   // Universities outside of the Republic of Korea
   if (univ == "AU" || univ.includes("Adelphi")) return "#FDB813";
