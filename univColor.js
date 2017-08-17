@@ -20,6 +20,7 @@ function getColorByUnivName(univ) {
   if (univ == "CMU" || univ.toLowerCase().replace(/\s+/g, '').includes("carnegiemellon") || univ.toLowerCase().replace(/\s+/g, '').includes("카네기멜론")) return "#CC002B";
   if (univ == "SMU" || univ.toLowerCase().replace(/\s+/g, '').includes("singaporemanagementuniversity")) return "#223385";
   if (univ.includes("Tsukuba") || univ.toLowerCase().replace(/\s+/g, '').includes("tsukuba") || univ.includes("츠쿠바") || univ.includes("쓰쿠바") || univ.includes("筑波")) return "#6600CC";
+  if (univ == "UD" || univ.toLowerCase().replace(/\s+/g, '').includes("universityofdelaware")) return "#00539F";
 
   // Korean Universities
   // Index: ㄱ
