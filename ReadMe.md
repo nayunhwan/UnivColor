@@ -105,6 +105,7 @@ This is a Simple Javascript function for getting Primary Color of University to 
 * 성균관대
 * 세명대
 * 세종대
+* 순천대
 * 순천향대
 * 숭실대
 * 숭의여대
@@ -121,6 +122,7 @@ This is a Simple Javascript function for getting Primary Color of University to 
 * 충북대
 * 카이스트
 * 평택대
+* 한국기술교육대
 * 한동대
 * 한국외국어대
 * 한국항공대
