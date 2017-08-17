@@ -40,9 +40,9 @@
     }
 
 
-      var univNames = ["Adelphi", "Boston University", "CMU", "Harvard", "New York University", 
-          "Singapore Management University", "Stanford", "UC Berkeley", 
-          "University of Manouba", "University of Tunis El Manar", "University of Tsukuba", "University of Tunis", 
+      var univNames = ["Adelphi", "Boston University", "CMU", "Harvard", "New York University",
+          "Singapore Management University", "Stanford", "UC Berkeley",
+          "University of Manouba", "University of Tunis El Manar", "University of Tsukuba", "University of Tunis",
           "University of Rochester", "UT Rio Grande Valley", "University of Washington", "University of Waterloo",
           "William & Mary", "가야대", "가천대", "가톨릭대", "가톨릭관동대", "감리교신학대", "강남대",
           "강릉원주대", "강원대", "건국대", "건양대", "경기대", "경남과학기술대", "경남대", "경동대",
@@ -79,8 +79,8 @@
         $('#input').on('keyup', function(e) {
             var color = getColorByUnivName(e.target.value);
             var $haxCode = $('#hexCode');
-            if(color === 'Not Found') {
-                //$haxCode.css({display: "none"}).text(color);
+            if(color === '#000000') {
+                $haxCode.css({'background': color, 'color': '#ffffff'}).text('Not Found');
             } else {
                 $haxCode.css({'background': color, 'color': '#ffffff'}).text(color);
             }
