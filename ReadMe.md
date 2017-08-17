@@ -17,6 +17,7 @@ This is a Simple Javascript function for getting Primary Color of University to 
 * Tunis El Manar University
 * Tunis University
 * UC Berkeley
+* University of Delaware
 * University of Rochester
 * University of Texas Rio Grande Valley
 * University of Tsukuba
