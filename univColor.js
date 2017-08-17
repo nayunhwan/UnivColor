@@ -4,12 +4,12 @@
  * @return String the color value of univ, in "#RRGGBB" hex format
  */
 function getColorByUnivName(univ) {
-  //Tunisian Universities
+  // Universities in Tunisia
   if (univ == "UMA" || (univ.toLowerCase().replace(/\s+/g, '').includes("manouba") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#004c96";
   if (univ == "UTM" || (univ.toLowerCase().replace(/\s+/g, ' ').includes("tunis el manar") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#ac0c0c";
   if (univ == "UTUNIS" || (univ.toLowerCase().replace(/\s+/g, '').includes("tunis") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#9198a0";
 
-  // Foreign Universities
+  // Universities outside of the Republic of Korea
   if (univ == "AU" || univ.includes("Adelphi")) return "#FDB813";
   if (univ == "BU" || univ.includes("Boston University") || univ.toLowerCase().replace(/\s+/g, '').includes("bostonuniversity") || univ.toLowerCase().replace(/\s+/g, '').includes("보스턴대학교")) return "#CC0000"; // 주의: Boston University와 Boston College 둘 다 보스턴대학교로 번역됩니다.
   if (univ == "NYU" || univ.includes("New York")) return "#582e87";
@@ -26,7 +26,7 @@ function getColorByUnivName(univ) {
   if (univ.includes("Tsukuba") || univ.toLowerCase().replace(/\s+/g, '').includes("tsukuba") || univ.includes("츠쿠바") || univ.includes("쓰쿠바") || univ.includes("筑波")) return "#6600CC";
   if (univ == "UD" || univ.toLowerCase().replace(/\s+/g, '').includes("universityofdelaware")) return "#00539F";
 
-  // Korean Universities
+  // Universities in the Republic of Korea
   // Index: ㄱ
   if (univ == "KYU" || univ.includes("가야대")) return "#114fa1";
   if (univ == "GCHU" || univ.includes("가천대")) return "#00458c";
