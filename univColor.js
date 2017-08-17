@@ -7,6 +7,7 @@ function getColorByUnivName(univ) {
 
   // Foreign Universities
   if (univ == "AU" || univ.includes("Adelphi")) return "#FDB813";
+  if (univ == "NYU" || univ.includes("New York")) return "#582e87";
   if (univ == "Harvard" || univ.includes("하버드")) return "#C90016";
   if (univ == "UCB" || univ.toLowerCase().replace(/\s+/g, '').includes("berkeley") || univ.toLowerCase().replace(/\s+/g, '').includes("버클리대")) return "#FDB515";
   if (univ == "Stanford" || univ.includes("스탠포드") || univ.includes("스탠퍼드")) return "#A8003B";
