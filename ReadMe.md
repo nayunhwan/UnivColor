@@ -19,6 +19,7 @@ This is a Simple Javascript function for getting Primary Color of University to 
 * UC Berkeley
 * University of Rochester
 * University of Texas Rio Grande Valley
+* University of Tsukuba
 * University of Washington
 * University of Waterloo
 * 가야대
