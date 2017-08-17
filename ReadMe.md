@@ -11,6 +11,7 @@ This is a Simple Javascript function for getting Primary Color of University to 
 * College of William & Mary
 * Havard University
 * Manouba University
+* New York University
 * Singapore Management University
 * Stanford University
 * Tunis El Manar University
