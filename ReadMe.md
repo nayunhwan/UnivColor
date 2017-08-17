@@ -86,6 +86,7 @@ This is a Simple Javascript function for getting Primary Color of University to 
 * 동덕여대
 * 동명대
 * 동서대
+* 동서울대
 * 동신대
 * 동아대
 * 동양대

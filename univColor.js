@@ -96,6 +96,7 @@ function getColorByUnivName(univ) {
   if (univ == "DDWU" || univ.includes("동덕여자대") || univ.includes("동덕여대")) return "#8b2842";
   if (univ == "TU" || univ.includes("동명대")) return "#53aa48";
   if (univ == "DSU" || univ.includes("동서대")) return "#d43645";
+  if ((univ == "DU"|| univ =="DSC") || univ.includes("동서울대")) return "#0B6375"; //겹칠 경우에 DU로 변경해주세요
   if (univ == "DSNU" || univ.includes("동신대")) return "#255ea9";
   if (univ == "DAU" || univ.includes("동아대")) return "#29166f";
   if (univ == "DYU" || univ.includes("동양대")) return "#143b82";
