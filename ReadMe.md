@@ -1,19 +1,21 @@
-# Univ Color
+﻿# Univ Color
 This is a Simple Javascript function for getting Primary Color of University to Hex Code
 
 [DEMO Link](https://nayunhwan.github.io/UnivColor/)
 
 ## University List
-* Manouba University
-* Tunis University
-* Tunis El Manar University
 
 * Adelphi University
+* Boston University
 * Carnegie Mellon University
 * College of William & Mary
 * Havard University
+* Manouba University
+* New York University
 * Singapore Management University
 * Stanford University
+* Tunis El Manar University
+* Tunis University
 * UC Berkeley
 * University of Rochester
 * University of Texas Rio Grande Valley
@@ -104,6 +106,7 @@ This is a Simple Javascript function for getting Primary Color of University to 
 * 성균관대
 * 세명대
 * 세종대
+* 순천대
 * 순천향대
 * 숭실대
 * 숭의여대
@@ -111,6 +114,7 @@ This is a Simple Javascript function for getting Primary Color of University to 
 * 연세대
 * 영남대
 * 인천대
+* 유한대
 * 인하대
 * 전남대
 * 전북대
@@ -120,6 +124,7 @@ This is a Simple Javascript function for getting Primary Color of University to 
 * 충북대
 * 카이스트
 * 평택대
+* 한국기술교육대
 * 한동대
 * 한국외국어대
 * 한국항공대
