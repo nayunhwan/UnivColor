@@ -1,17 +1,29 @@
-// For University Theme Color
+/**
+ * Returns the HEX color value of given university's spirit color.
+ * @param  String univ the name of the university to fetch the color of
+ * @return String the color value of univ, in "#RRGGBB" hex format
+ */
 function getColorByUnivName(univ) {
-  //Tunisian Universities
+// Universities in Tunisia
   if (univ == "UMA" || (univ.toLowerCase().replace(/\s+/g, '').includes("manouba") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#004c96";
   if (univ == "UTM" || (univ.toLowerCase().replace(/\s+/g, ' ').includes("tunis el manar") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#ac0c0c";
   if (univ == "UTUNIS" || (univ.toLowerCase().replace(/\s+/g, '').includes("tunis") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#9198a0";
+  if (univ == "USS" || (univ.toLowerCase().replace(/\s+/g, '').includes("sfax") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#c48f00";
+  if (univ == "UC" || (univ.toLowerCase().replace(/\s+/g, '').includes("sousse") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#10457d";
+  if (univ == "UM" || (univ.toLowerCase().replace(/\s+/g, '').includes("monastir") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#305086";
+  if (univ == "UGAF" || (univ.toLowerCase().replace(/\s+/g, '').includes("gafsa") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#020181";
+  if (univ == "UZ" || (univ.toLowerCase().replace(/\s+/g, '').includes("ez-zitouna") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#c68ed4";
+  if (univ == "UNIVGB" || (univ.toLowerCase().replace(/\s+/g, '').includes("gabes") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#10a0f1";
+  if (univ == "UJ" || (univ.toLowerCase().replace(/\s+/g, '').includes("jendouba") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#ae2543";
+  if (univ == "UCAR" || (univ.toLowerCase().replace(/\s+/g, '').includes("carthage") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#005289";
 
-  // Foreign Universities
+  // Universities outside of the Republic of Korea
   if (univ == "AU" || univ.includes("Adelphi")) return "#FDB813";
   if (univ == "BU" || univ.includes("Boston University") || univ.toLowerCase().replace(/\s+/g, '').includes("bostonuniversity") || univ.toLowerCase().replace(/\s+/g, '').includes("보스턴대학교")) return "#CC0000"; // 주의: Boston University와 Boston College 둘 다 보스턴대학교로 번역됩니다.
   if (univ == "NYU" || univ.includes("New York")) return "#582e87";
-  if (univ == "Harvard" || univ.includes("하버드")) return "#C90016";
+  if (univ == "Harvard" || univ.toLowerCase().replace(/\s+/g, '').includes("harvard") || univ.includes("하버드")) return "#C90016";
   if (univ == "UCB" || univ.toLowerCase().replace(/\s+/g, '').includes("berkeley") || univ.toLowerCase().replace(/\s+/g, '').includes("버클리대")) return "#FDB515";
-  if (univ == "Stanford" || univ.includes("스탠포드") || univ.includes("스탠퍼드")) return "#A8003B";
+  if (univ == "Stanford" || univ.toLowerCase().replace(/\s+/g, '').includes("stanford") || univ.includes("스탠포드") || univ.includes("스탠퍼드")) return "#A8003B";
   if (univ == "UR" || (univ.toLowerCase().replace(/\s+/g, '').includes("rochester") && univ.toLowerCase().replace(/\s+/g, '').includes("university")) || univ.toLowerCase().replace(/\s+/g, '').includes("로체스터대")) return "#FFD100";
   if (univ == "UTRGV" || univ.includes("UT Rio Grande Valley") || univ.includes("University of Texas Rio Grande Valley")) return "#F05023";
   if (univ.includes("Washington") || univ.toLowerCase().replace(/\s+/g, '').includes("워싱턴대")) return "#4B2E83"; // George Washington Univ, University of Washington in St.louis 구분 불가능. 수정 필요해보입니다.
@@ -20,8 +32,9 @@ function getColorByUnivName(univ) {
   if (univ == "CMU" || univ.toLowerCase().replace(/\s+/g, '').includes("carnegiemellon") || univ.toLowerCase().replace(/\s+/g, '').includes("카네기멜론")) return "#CC002B";
   if (univ == "SMU" || univ.toLowerCase().replace(/\s+/g, '').includes("singaporemanagementuniversity")) return "#223385";
   if (univ.includes("Tsukuba") || univ.toLowerCase().replace(/\s+/g, '').includes("tsukuba") || univ.includes("츠쿠바") || univ.includes("쓰쿠바") || univ.includes("筑波")) return "#6600CC";
+  if (univ == "UD" || univ.toLowerCase().replace(/\s+/g, '').includes("universityofdelaware")) return "#00539F";
 
-  // Korean Universities
+  // Universities in the Republic of Korea
   // Index: ㄱ
   if (univ == "KYU" || univ.includes("가야대")) return "#114fa1";
   if (univ == "GCHU" || univ.includes("가천대")) return "#00458c";

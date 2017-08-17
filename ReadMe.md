@@ -4,20 +4,28 @@ This is a Simple Javascript function for getting Primary Color of University to 
 [DEMO Link](https://nayunhwan.github.io/UnivColor/)
 
 ## University List
-
 * Adelphi University
 * Boston University
 * Carnegie Mellon University
 * College of William & Mary
+* Ez-zitouna University
+* Gabes University
+* Gafsa University
 * Havard University
 * Manouba University
+* Monastir University
 * New York University
+* Sfax University
 * Singapore Management University
+* Sousse University
 * Stanford University
 * Tunis El Manar University
 * Tunis University
 * UC Berkeley
+* University of Carthage
+* University of Delaware
 * University of Rochester
+* University of Jendouba
 * University of Texas Rio Grande Valley
 * University of Tsukuba
 * University of Washington
