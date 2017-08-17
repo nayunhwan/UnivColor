@@ -1,4 +1,8 @@
-// For University Theme Color
+/**
+ * Returns the HEX color value of given university's spirit color.
+ * @param  String univ the name of the university to fetch the color of
+ * @return String the color value of univ, in "#RRGGBB" hex format
+ */
 function getColorByUnivName(univ) {
   //Tunisian Universities
   if (univ == "UMA" || (univ.toLowerCase().replace(/\s+/g, '').includes("manouba") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#004c96";
