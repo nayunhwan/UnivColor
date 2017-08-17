@@ -127,9 +127,10 @@ This is a Simple Javascript function for getting Primary Color of University to 
 * 카이스트
 * 평택대
 * 한국기술교육대
-* 한동대
+* 한국승강기대
 * 한국외국어대
 * 한국항공대
+* 한동대
 * 한밭대
 * 한성대
 * 한양대
