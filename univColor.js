@@ -21,9 +21,9 @@ function getColorByUnivName(univ) {
   if (univ == "AU" || univ.includes("Adelphi")) return "#FDB813";
   if (univ == "BU" || univ.includes("Boston University") || univ.toLowerCase().replace(/\s+/g, '').includes("bostonuniversity") || univ.toLowerCase().replace(/\s+/g, '').includes("보스턴대학교")) return "#CC0000"; // 주의: Boston University와 Boston College 둘 다 보스턴대학교로 번역됩니다.
   if (univ == "NYU" || univ.includes("New York")) return "#582e87";
-  if (univ == "Harvard" || univ.includes("하버드")) return "#C90016";
+  if (univ == "Harvard" || univ.toLowerCase().replace(/\s+/g, '').includes("harvard") || univ.includes("하버드")) return "#C90016";
   if (univ == "UCB" || univ.toLowerCase().replace(/\s+/g, '').includes("berkeley") || univ.toLowerCase().replace(/\s+/g, '').includes("버클리대")) return "#FDB515";
-  if (univ == "Stanford" || univ.includes("스탠포드") || univ.includes("스탠퍼드")) return "#A8003B";
+  if (univ == "Stanford" || univ.toLowerCase().replace(/\s+/g, '').includes("standford") || univ.includes("스탠포드") || univ.includes("스탠퍼드")) return "#A8003B";
   if (univ == "UR" || (univ.toLowerCase().replace(/\s+/g, '').includes("rochester") && univ.toLowerCase().replace(/\s+/g, '').includes("university")) || univ.toLowerCase().replace(/\s+/g, '').includes("로체스터대")) return "#FFD100";
   if (univ == "UTRGV" || univ.includes("UT Rio Grande Valley") || univ.includes("University of Texas Rio Grande Valley")) return "#F05023";
   if (univ.includes("Washington") || univ.toLowerCase().replace(/\s+/g, '').includes("워싱턴대")) return "#4B2E83"; // George Washington Univ, University of Washington in St.louis 구분 불가능. 수정 필요해보입니다.

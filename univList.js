@@ -6,7 +6,7 @@ var univNames = [
   "Ez-zitouna University",
   "Gabes University",
   "Gafsa University",
-  "Havard University",
+  "Harvard University",
   "Manouba University",
   "Monastir University",
   "New York University",
