@@ -122,6 +122,7 @@ function getColorByUnivName(univ) {
   if (univ == "YSU" || univ.includes("연세대")) return "#16407d";
   if (univ == "YU" || univ.includes("영남대")) return "#003e7d";
   if (univ == "INU" || univ.includes("인천대")) return "#01499a";
+  if (univ == "UNIST" || univ.includes("유니스트") || univ == "울산과기원") return "#001C54";
   if (univ == "YUHAN" || univ.includes("유한대")) return "#54b668";
   if (univ == "INHA" || univ.includes("인하대")) return "#0267b9";
 
@@ -147,5 +148,5 @@ function getColorByUnivName(univ) {
   if (univ == "HOSEO" || univ.includes("호서대")) return "#08449a";
   if (univ == "HIU" || univ.includes("홍익대")) return "#002c62";
 
-  return "Not Found";
+  return "#000000";
 }
