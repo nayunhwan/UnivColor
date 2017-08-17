@@ -135,7 +135,8 @@ function getColorByUnivName(univ) {
   if (univ == "CBNU" ||univ.includes("충북대")) return "#9B1F4E";
 
   if (univ == "KAIST" || univ.includes("카이스트")) return "#004191";
-
+  
+  if (univ == "POSTECH" || univ.includes("포항공과대학교") || univ.includes("포항공대")) return "#C61065";
   if (univ == "PTU" || univ.includes("평택대")) return "#003e15";
 
   if (univ == "KOREATECH" || univ.includes("한국기술교육대") || univ =="코리아텍") return "#FF7F00";
