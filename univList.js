@@ -7,6 +7,7 @@ var univNames = [
   "Singapore Management University",
   "Stanford",
   "UC Berkeley",
+  "University of Delaware",
   "University of Manouba",
   "University of Tunis El Manar",
   "University of Tsukuba",
