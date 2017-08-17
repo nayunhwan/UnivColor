@@ -48,6 +48,10 @@ ul {
     overflow: hidden;
 }
 
+.colorBox:hover {
+    font-size: 6.5px;
+}
+
 .colorBox.safari {
     font-size: 0.75rem;
 }
@@ -57,6 +61,10 @@ ul {
     font-size: 1.0rem;
 
     -webkit-text-size-adjust: none;
+}
+
+.colorBox.safari:hover {
+    font-size: 10px;
 }
 
 .ui-autocomplete{
