@@ -14,88 +14,6 @@
   <script src="./lib/Semantic/semantic.js"></script>
   <link rel="stylesheet" type="text/css" href="./lib/Semantic/semantic.css">
   <link rel="stylesheet" type="text/css" href="./style.css">
-
-  <script>
-    function initialUnivColor(univNames) {
-        return univNames.map(function(name){
-            var univObject = {};
-            univObject.color = getColorByUnivName(name);
-            univObject.name = name;
-            return univObject;
-        });
-    }
-
-    function hexc(colorval) {
-        var parts = colorval.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
-        delete(parts[0]);
-        for (var i = 1; i <= 3; ++i) {
-            parts[i] = parseInt(parts[i]).toString(16).toUpperCase();
-            if (parts[i].length == 1) parts[i] = '0' + parts[i];
-        }
-        return color = '#' + parts.join('');
-    }
-
-    function checkSafari() {
-        if(navigator.userAgent.search("Safari") >= 0) return true;
-        else return false;
-    }
-
-    var univHash = initialUnivColor(univNames);
-
-    var sortedByColor = univHash.sort(function(colorA, colorB) {
-        return surfacecurve.color(colorA.color).hue() - surfacecurve.color(colorB.color).hue();
-    });
-
-    $(function(){
-
-        var univListTemplate = sortedByColor.map(function(univ, i) {
-            var box = $('<div/>').addClass('colorBox').css({'background': univ.color}).text(univ.name);
-
-            // If the browser is Safari, add class ".safari"
-            if(checkSafari()) box.addClass('safari');
-
-            return box.get(0);
-        });
-
-        $('#university').html(univListTemplate);
-
-        $('#input').on('keyup', function(e) {
-            var color = getColorByUnivName(e.target.value);
-            var $haxCode = $('#hexCode');
-            if(color === '#000000') {
-                $haxCode.css({'background': color, 'color': '#ffffff'}).text('Not Found');
-            } else {
-                $haxCode.css({'background': color, 'color': '#ffffff'}).text(color);
-            }
-        });
-        $('#input').autocomplete({
-            source: univNames
-        });
-
-        $('.colorBox').click(function(){
-            var $haxCode = $('#hexCode');
-            var color = hexc($(this).css('background-color'));
-            $haxCode.css({'background': color, 'color': '#ffffff', height: "32px"}).text(color);
-        });
-
-        $('.colorBox').hover(function(){
-            $(this).css("opacity", "0.8");
-            if(checkSafari()) {
-                $(this).css("font-size", "10px");
-            } else {
-                $(this).css("font-size", "6.5px");
-            }
-        }, function() {
-            $(this).css("opacity", "1.0");
-            if(checkSafari()) {
-                $(this).css("font-size", "9px");
-            } else {
-                $(this).css("font-size", "5px");
-            }
-        });
-    });
-  </script>
-</head>
 <body>
     <div class="container">
       <div class="ui title">
@@ -114,5 +32,6 @@
       </div>
     </div>
     <script type="text/javascript" src="./univColor.js"></script>
+    <script type="text/javascript" src="./app.js"></script>
 </body>
 </html>
