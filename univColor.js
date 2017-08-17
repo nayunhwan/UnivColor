@@ -1,15 +1,24 @@
 // For University Theme Color
 function getColorByUnivName(univ) {
-  // Foregin Universities
+    //Tunisian Universities
+    if (univ == "UMA" || (univ.toLowerCase().replace(/\s+/g, '').includes("manouba") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#004c96";
+    if (univ == "UTM" || (univ.toLowerCase().replace(/\s+/g, ' ').includes("tunis el manar") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#ac0c0c";
+    if (univ == "UTUNIS" || (univ.toLowerCase().replace(/\s+/g, '').includes("tunis") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#9198a0";
+
+  // Foreign Universities
   if (univ == "AU" || univ.includes("Adelphi")) return "#FDB813";
   if (univ == "Harvard" || univ.includes("하버드")) return "#C90016";
   if (univ == "UCB" || univ.toLowerCase().replace(/\s+/g, '').includes("berkeley") || univ.toLowerCase().replace(/\s+/g, '').includes("버클리대")) return "#FDB515";
   if (univ == "Stanford" || univ.includes("스탠포드") || univ.includes("스탠퍼드")) return "#A8003B";
   if (univ == "UR" || (univ.toLowerCase().replace(/\s+/g, '').includes("rochester") && univ.toLowerCase().replace(/\s+/g, '').includes("university")) || univ.toLowerCase().replace(/\s+/g, '').includes("로체스터대")) return "#FFD100";
   if (univ == "UTRGV" || univ.includes("UT Rio Grande Valley") || univ.includes("University of Texas Rio Grande Valley")) return "#F05023";
-  if (univ.includes("Washington") || univ.toLowerCase().replace(/\s+/g, '').includes("워싱턴대")) return "#4B2E83";
+  if (univ.includes("Washington") || univ.toLowerCase().replace(/\s+/g, '').includes("워싱턴대")) return "#4B2E83"; // George Washington Univ, University of Washington in St.louis 구분 불가능. 수정 필요해보입니다.
   if (univ.includes("Waterloo") || univ.toLowerCase().replace(/\s+/g, '').includes("워털루대")) return "#FFD54F";
   if (univ == "WM" || univ.toLowerCase().replace(/\s+/g, '').includes("william&mary")) return "#006633";
+  if (univ == "CMU" || univ.toLowerCase().replace(/\s+/g, '').includes("carnegiemellon") || univ.toLowerCase().replace(/\s+/g, '').includes("카네기멜론")) return "#CC002B";
+  if (univ == "SMU" || univ.toLowerCase().replace(/\s+/g, '').includes("singaporemanagementuniversity")) return "#223385";
+  if (univ == "BU" || univ.includes("Boston University") || univ.toLowerCase().replace(/\s+/g, '').includes("bostonuniversity") || univ.toLowerCase().replace(/\s+/g, '').includes("보스턴대학교")) return "#CC0000"; // 주의: Boston University와 Boston College 둘 다 보스턴대학교로 번역됩니다.
+  
 
   // Korean Universities
   if (univ == "KYU" || univ.includes("가야대")) return "#114fa1";
@@ -101,13 +110,17 @@ function getColorByUnivName(univ) {
   if (univ == "SMU" || univ.includes("선문대")) return "#006a74";
   if (univ == "SKHU" || univ.includes("성공회대")) return "#006BB1";
   if (univ == "SKKU" || univ.includes("성균관대")) return "#8DC63F";
-  if (univ == "SJU" || univ.includes("세종대")) return "#C3002F";
+  if (univ == "SEMYUNG" || univ.includes("세명대")) return "#005DAA";
+  if (univ == "SJU" || univ.includes("세종대")) return "#ba0c2f";
+  if (univ == "SCNU" || univ.includes("순천대")) return "#004C97";
+  if (univ == "SCH" || univ.includes("순천향대")) return "#A6CE39";
   if (univ == "SSU" || univ.includes("숭실대")) return "#4badcd";
   if (univ == "SWC" || univ.includes("숭의여대")) return "#062d8f";
 
-  if (univ == "AJU" || univ.includes("아주대")) return "#0072ce";
+  if (univ == "AJOU" || univ.includes("아주대")) return "#0072ce";
   if (univ == "YSU" || univ.includes("연세대")) return "#16407d";
   if (univ == "YU" || univ.includes("영남대")) return "#003e7d";
+  if (univ == "INU" || univ.includes("인천대")) return "#01499a";
   if (univ == "INHA" || univ.includes("인하대")) return "#0267b9";
 
   if (univ == "YUHAN" || univ.includes("유한대")) return "#54b668";
@@ -124,9 +137,11 @@ function getColorByUnivName(univ) {
 
   if (univ == "PTU" || univ.includes("평택대")) return "#003e15";
 
+  if (univ == "KOREATECH" || univ.includes("한국기술교육대") || univ =="코리아텍") return "#FF7F00";
   if (univ == "HUFS" || univ.includes("한국외국어대")) return "#00677F";
   if (univ == "KAU" || univ.includes("한국항공대")) return "#302475";
-  if (univ == "HGU" || univ.includes("한동대")) return "#13eac9";
+  if (univ == "HGU" || univ.includes("한동대")) return "#00579c";
+  if (univ == "HBNU" || univ.includes("한밭대")) return "#6774D9";
   if (univ == "HSU" || univ.includes("한성대")) return "#62b5e5";
   if (univ == "HYU" || univ.includes("한양대")) return "#003c71";
   if (univ == "HOSEO" || univ.includes("호서대")) return "#08449a";
