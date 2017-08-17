@@ -93,22 +93,6 @@
             var color = hexc($(this).css('background-color'));
             $haxCode.css({'background': color, 'color': '#ffffff', height: "32px"}).text(color);
         });
-
-        $('.colorBox').hover(function(){
-            $(this).css("opacity", "0.8");
-            if(checkSafari()) {
-                $(this).css("font-size", "10px");
-            } else {
-                $(this).css("font-size", "6.5px");
-            }
-        }, function() {
-            $(this).css("opacity", "1.0");
-            if(checkSafari()) {
-                $(this).css("font-size", "9px");
-            } else {
-                $(this).css("font-size", "5px");
-            }
-        });
     });
   </script>
 </head>

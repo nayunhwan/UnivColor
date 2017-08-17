@@ -43,8 +43,16 @@ ul {
     overflow: hidden;
 }
 
+.colorBox:hover {
+    font-size: 6.5px;
+}
+
 .colorBox.safari {
     font-size: 9px;
+}
+
+.colorBox.safari:hover {
+    font-size: 10px;
 }
 
 .ui-autocomplete{
