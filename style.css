@@ -12,7 +12,8 @@ ul {
 }
 .hexBox {
     text-align: center;
-    font-size: 22pt;
+    font-size: 22px;
+    font-weight: 300;
     padding: 4px;
     margin: 12px 0px;
 }
@@ -25,6 +26,7 @@ ul {
     width: 100%;
     margin: 12px 0px;
 }
+
 .flex {
     display: flex;
     flex-wrap: wrap;
@@ -32,10 +34,13 @@ ul {
 }
 
 .colorBox {
-    color: white;
-    font-size: 5px;
-    line-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+
+    color: white;
+    font-size: 0.75rem;
     width: 80px;
     height: 80px;
     cursor: pointer;
@@ -48,7 +53,14 @@ ul {
 }
 
 .colorBox.safari {
-    font-size: 9px;
+    font-size: 0.75rem;
+}
+
+.colorBox:hover {
+    opacity: 0.8;
+    font-size: 1.0rem;
+
+    -webkit-text-size-adjust: none;
 }
 
 .colorBox.safari:hover {
@@ -59,6 +71,24 @@ ul {
     background:white;
     z-index: 3;
 }
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+    border: none !important;
+    background-color: #85B7D9;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.ui-helper-hidden-accessible {
+    display: none !important;
+}
+
 
 @media screen {
     /* Smartphone */
