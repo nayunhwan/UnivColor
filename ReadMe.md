@@ -41,7 +41,7 @@ This is a Simple Javascript function for getting Primary Color of University to 
 * University of Tsukuba
 * University of Washington
 * University of Waterloo
-* [Univsersity of Zürich](http://www.uzh.ch/en.html)
+* [University of Zürich](http://www.uzh.ch/en.html)
 * Washington University in St. Louis
 * 가야대
 * 가천대
