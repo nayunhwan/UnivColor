@@ -26,13 +26,30 @@ function getColorByUnivName(univ) {
   if (univ == "Stanford" || univ.toLowerCase().replace(/\s+/g, '').includes("stanford") || univ.includes("스탠포드") || univ.includes("스탠퍼드")) return "#A8003B";
   if (univ == "UR" || (univ.toLowerCase().replace(/\s+/g, '').includes("rochester") && univ.toLowerCase().replace(/\s+/g, '').includes("university")) || univ.toLowerCase().replace(/\s+/g, '').includes("로체스터대")) return "#FFD100";
   if (univ == "UTRGV" || univ.includes("UT Rio Grande Valley") || univ.includes("University of Texas Rio Grande Valley")) return "#F05023";
-  if (univ.includes("Washington") || univ.toLowerCase().replace(/\s+/g, '').includes("워싱턴대")) return "#4B2E83"; // George Washington Univ, University of Washington in St.louis 구분 불가능. 수정 필요해보입니다.
   if (univ.includes("Waterloo") || univ.toLowerCase().replace(/\s+/g, '').includes("워털루대")) return "#FFD54F";
   if (univ == "WM" || univ.toLowerCase().replace(/\s+/g, '').includes("william&mary")) return "#006633";
   if (univ == "CMU" || univ.toLowerCase().replace(/\s+/g, '').includes("carnegiemellon") || univ.toLowerCase().replace(/\s+/g, '').includes("카네기멜론")) return "#CC002B";
   if (univ == "SMU" || univ.toLowerCase().replace(/\s+/g, '').includes("singaporemanagementuniversity")) return "#223385";
   if (univ.includes("Tsukuba") || univ.toLowerCase().replace(/\s+/g, '').includes("tsukuba") || univ.includes("츠쿠바") || univ.includes("쓰쿠바") || univ.includes("筑波")) return "#6600CC";
   if (univ == "UD" || univ.toLowerCase().replace(/\s+/g, '').includes("universityofdelaware")) return "#00539F";
+  if(univ == "GWU" || univ.toLowerCase().replace(/\s+/g, '').includes("gwu") || univ.includes("지덥") || univ.includes("쥐덥")) return "#004065"; //George Washington University
+  if(univ == "UW" || univ.toLowerCase().replace(/\s+/g, '').includes("uw") || univ.includes("유덥")) return "#4B2E83"; //University of Washington
+  if (univ == "WUSTL" || univ == "WASHU" || univ.toLowerCase().replace(/\s+/g, '').includes("wustl") || univ.toLowerCase().replace(/\s+/g, '').includes("washu") || univ.includes("와슈") || univ.includes("워슈")) return "#A51417"; //Washington University in St. Louis
+  if (univ.includes("Washington") || univ.toLowerCase().replace(/\s+/g, '').includes("washington") || univ.includes("워싱턴")){
+      if(univ.toLowerCase().replace(/\s+/g, '').includes("george") || univ.includes("조지")){ //워싱턴 대학 구분
+
+          return "#004065"; //George Washington University
+      }
+      else if(univ.toLowerCase().replace(/\s+/g, '').includes("st.louis") || univ.includes("세인트루이스")){
+
+          return "#A51417"; //Washington University in St. Louis
+      }
+      else{
+
+          return "#4B2E83"; //University of Washington
+      }
+  }
+
 
   // Universities in the Republic of Korea
   // Index: ㄱ
