@@ -8,6 +8,8 @@ This is a Simple Javascript function for getting Primary Color of University to 
 * Boston University
 * Carnegie Mellon University
 * College of William & Mary
+* [EPFL](https://www.epfl.ch/index.en.html)
+* [ETH Zürich](https://www.ethz.ch/en.html)
 * Ez-zitouna University
 * Gabes University
 * Gafsa University
@@ -24,14 +26,22 @@ This is a Simple Javascript function for getting Primary Color of University to 
 * Tunis El Manar University
 * Tunis University
 * UC Berkeley
+* [University of Basel](https://www.unibas.ch/en.html)
+* [University of Bern](http://www.unibe.ch/index_eng.html)
 * University of Carthage
 * University of Delaware
-* University of Rochester
+* [University of Fribourg](http://www.unifr.ch/home/en.html)
+* [University of Geneva](https://www.unige.ch/en)
 * University of Jendouba
+* [University of Lausanne](http://www.unil.ch/central/en/home.html)
+* [University of Neuchâtel](https://www.unine.ch/)
+* University of Rochester
+* [University of St-Gallen](https://www.unisg.ch/en)
 * University of Texas Rio Grande Valley
 * University of Tsukuba
 * University of Washington
 * University of Waterloo
+* [Univsersity of Zürich](http://www.uzh.ch/en.html)
 * Washington University in St. Louis
 * 가야대
 * 가천대

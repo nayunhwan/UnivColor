@@ -4,7 +4,19 @@
  * @return String the color value of univ, in "#RRGGBB" hex format
  */
 function getColorByUnivName(univ) {
-// Universities in Tunisia
+  // Universities in Switzerland
+  if (univ == "UNIBAS" || univ.includes("University of Basel")) return "#a6d8d3";
+  if (univ == "UZH" || univ.includes("University of Zürich")) return "#060606";
+  if (univ == "UNIL" || univ.includes("University of Lausanne")) return "#2995cb";
+  if (univ == "UNIGE" || univ.includes("University of Geneva")) return "#d11064";
+  if (univ == "UNIFR" || univ.includes("University of Fribourg")) return "#1b161b";
+  if (univ == "EPFL" || univ.includes("EPFL")) return "#e3011b";
+  if (univ == "ETH" || univ.includes("ETH Zürich")) return "#0f0f0f";
+  if (univ == "UNISG" || univ.includes("University of St-Gallen")) return "#408059";
+  if (univ == "UNIBE" || univ.includes("University of Bern")) return "#0a0a0a";
+  if (univ == "UNINE" || univ.includes("University of Neuchâtel")) return "#074e74";
+
+  // Universities in Tunisia
   if (univ == "UMA" || (univ.toLowerCase().replace(/\s+/g, '').includes("manouba") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#004c96";
   if (univ == "UTM" || (univ.toLowerCase().replace(/\s+/g, ' ').includes("tunis el manar") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#ac0c0c";
   if (univ == "UTUNIS" || (univ.toLowerCase().replace(/\s+/g, '').includes("tunis") && univ.toLowerCase().replace(/\s+/g, '').includes("university"))) return "#9198a0";
