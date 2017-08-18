@@ -157,6 +157,7 @@ function getColorByUnivName(univ) {
   if (univ == "CAU" || univ.includes("중앙대")) return "#004c97";
 
   // Index: ㅊ
+  if (univ == "CWNU" || univ.includes("창원대")) return "#01499B";
   if (univ == "CSU" || univ.includes("총신대")) return "#34578C";
   if (univ == "CNU" || univ.includes("충남대")) return "#003f98";
   if (univ == "CBNU" ||univ.includes("충북대")) return "#9B1F4E";
