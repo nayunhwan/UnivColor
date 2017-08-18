@@ -7,7 +7,7 @@ var univNames = [
   "Gabes University",
   "Gafsa University",
   "George Washington University",
-  "Georgia Institute of Technology"
+  "Georgia Institute of Technology",
   "Harvard University",
   "Manouba University",
   "Monastir University",
