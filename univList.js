@@ -6,11 +6,8 @@ var univNames = [
   "Ez-zitouna University",
   "Gabes University",
   "Gafsa University",
-<<<<<<< HEAD
   "George Washington University",
-=======
   "Georgia Institute of Technology"
->>>>>>> 937d32d7700863096128baaa3130b855a8e7e3af
   "Harvard University",
   "Manouba University",
   "Monastir University",
