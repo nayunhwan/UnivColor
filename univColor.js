@@ -49,6 +49,7 @@ function getColorByUnivName(univ) {
           return "#4B2E83"; //University of Washington
       }
   }
+  if (univ == "GT" || univ.toLowerCase().replace(/\s+/g, '').includes("georgiatech") || univ.toLowerCase().replace(/\s+/g, '').includes("georgiainstituteoftechnology") || univ.includes("조지아텍") || univ.includes("조지아공대")) return "#EEB211";
 
 
   // Universities in the Republic of Korea
@@ -172,6 +173,7 @@ function getColorByUnivName(univ) {
   if (univ == "CAU" || univ.includes("중앙대")) return "#004c97";
 
   // Index: ㅊ
+  if (univ == "CWNU" || univ.includes("창원대")) return "#01499B";
   if (univ == "CSU" || univ.includes("총신대")) return "#34578C";
   if (univ == "CNU" || univ.includes("충남대")) return "#003f98";
   if (univ == "CBNU" ||univ.includes("충북대")) return "#9B1F4E";
