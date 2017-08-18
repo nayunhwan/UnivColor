@@ -32,8 +32,8 @@ function getColorByUnivName(univ) {
   if (univ == "SMU" || univ.toLowerCase().replace(/\s+/g, '').includes("singaporemanagementuniversity")) return "#223385";
   if (univ.includes("Tsukuba") || univ.toLowerCase().replace(/\s+/g, '').includes("tsukuba") || univ.includes("츠쿠바") || univ.includes("쓰쿠바") || univ.includes("筑波")) return "#6600CC";
   if (univ == "UD" || univ.toLowerCase().replace(/\s+/g, '').includes("universityofdelaware")) return "#00539F";
-  if(univ == "GWU" || univ.toLowerCase().replace(/\s+/g, '').includes("gwu") || univ.includes("지덥") || univ.includes("쥐덥")) return "#004065"; //George Washington University
-  if(univ == "UW" || univ.toLowerCase().replace(/\s+/g, '').includes("uw") || univ.includes("유덥")) return "#4B2E83"; //University of Washington
+  if (univ == "GWU" || univ.toLowerCase().replace(/\s+/g, '').includes("gwu") || univ.includes("지덥") || univ.includes("쥐덥")) return "#004065"; //George Washington University
+  if (univ.includes("유덥")) return "#4B2E83"; //University of Washington
   if (univ == "WUSTL" || univ == "WASHU" || univ.toLowerCase().replace(/\s+/g, '').includes("wustl") || univ.toLowerCase().replace(/\s+/g, '').includes("washu") || univ.includes("와슈") || univ.includes("워슈")) return "#A51417"; //Washington University in St. Louis
   if (univ.includes("Washington") || univ.toLowerCase().replace(/\s+/g, '').includes("washington") || univ.includes("워싱턴")){
       if(univ.toLowerCase().replace(/\s+/g, '').includes("george") || univ.includes("조지")){ //워싱턴 대학 구분
