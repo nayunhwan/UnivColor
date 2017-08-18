@@ -25,7 +25,6 @@ var univNames = [
   "University of Bern",
   "University of Carthage",
   "University of Delaware",
-  "University of Rochester",
   "University of Fribourg",
   "University of Geneva",
   "University of Jendouba",
