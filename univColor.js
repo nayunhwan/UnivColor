@@ -33,6 +33,8 @@ function getColorByUnivName(univ) {
   if (univ == "SMU" || univ.toLowerCase().replace(/\s+/g, '').includes("singaporemanagementuniversity")) return "#223385";
   if (univ.includes("Tsukuba") || univ.toLowerCase().replace(/\s+/g, '').includes("tsukuba") || univ.includes("츠쿠바") || univ.includes("쓰쿠바") || univ.includes("筑波")) return "#6600CC";
   if (univ == "UD" || univ.toLowerCase().replace(/\s+/g, '').includes("universityofdelaware")) return "#00539F";
+  if (univ == "GT" || univ.toLowerCase().replace(/\s+/g, '').includes("georgiatech") || univ.toLowerCase().replace(/\s+/g, '').includes("georgiainstituteoftechnology") || univ.includes("조지아텍") || univ.includes("조지아공대")) return "#EEB211";
+
 
   // Universities in the Republic of Korea
   // Index: ㄱ
