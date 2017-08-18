@@ -11,6 +11,7 @@ This is a Simple Javascript function for getting Primary Color of University to 
 * Ez-zitouna University
 * Gabes University
 * Gafsa University
+* George Washington University
 * Georgia Institute of Technology
 * Havard University
 * Manouba University
@@ -31,6 +32,7 @@ This is a Simple Javascript function for getting Primary Color of University to 
 * University of Tsukuba
 * University of Washington
 * University of Waterloo
+* Washington University in St. Louis
 * 가야대
 * 가천대
 * 가톨릭대

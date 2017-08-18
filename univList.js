@@ -6,6 +6,7 @@ var univNames = [
   "Ez-zitouna University",
   "Gabes University",
   "Gafsa University",
+  "George Washington University",
   "Georgia Institute of Technology"
   "Harvard University",
   "Manouba University",
@@ -26,6 +27,7 @@ var univNames = [
   "University of Tsukuba",
   "University of Washington",
   "University of Waterloo",
+  "Washington University in St. Louis",
   "가야대",
   "가천대",
   "가톨릭대",
