@@ -182,6 +182,8 @@ function getColorByUnivName(univ) {
   if (univ == "JNU" || univ.includes("전남대")) return "#00913F";
   if (univ == "JBNU" || univ.includes("전북대")) return "#56296f";
   if (univ == "JJU" || univ.includes("전주대")) return "#006ba6";
+  if (univ == "CU"  || univ.includes("조선대")) return "#0054a7";
+  if (univ == "CST" || univ.includes("조선이공대")) return "#018C85";
   if (univ == "CAU" || univ.includes("중앙대")) return "#004c97";
 
   // Index: ㅊ
