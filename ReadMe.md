@@ -143,6 +143,8 @@ This is a Simple Javascript function for getting Primary Color of University to 
 * 전남대
 * 전북대
 * 전주대
+* [조선대](http://www.chosun.ac.kr)
+* [조선이공대](http://www.cst.ac.kr)
 * 중앙대
 * 창원대
 * 총신대
