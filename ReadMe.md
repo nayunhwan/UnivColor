@@ -16,6 +16,7 @@ This is a Simple Javascript function for getting Primary Color of University to 
 * George Washington University
 * Georgia Institute of Technology
 * Havard University
+* [Imperial College London](http://www.imperial.ac.uk)
 * Manouba University
 * Monastir University
 * New York University
