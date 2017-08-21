@@ -3,6 +3,7 @@ var univNames = [
   "Boston University",
   "Carnegie Mellon University",
   "College of William & Mary",
+  "Delhi Technological University",
   "EPFL",
   "ETH Zürich",
   "Ez-zitouna University",
