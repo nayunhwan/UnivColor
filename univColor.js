@@ -62,7 +62,9 @@ function getColorByUnivName(univ) {
       }
   }
   if (univ == "GT" || univ.toLowerCase().replace(/\s+/g, '').includes("georgiatech") || univ.toLowerCase().replace(/\s+/g, '').includes("georgiainstituteoftechnology") || univ.includes("조지아텍") || univ.includes("조지아공대")) return "#EEB211";
-
+  
+  // Universities in United Kingdom
+  if ((['ic', 'icl', '임페', '임페리얼'].indexOf(univ.trim()) >= 0) || (['imperial college london'].indexOf(univ.toLowerCase().trim()) >= 0)) return '#002147';
 
   // Universities in the Republic of Korea
   // Index: ㄱ

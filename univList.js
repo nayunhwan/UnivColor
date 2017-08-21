@@ -11,6 +11,7 @@ var univNames = [
   "George Washington University",
   "Georgia Institute of Technology",
   "Harvard University",
+  "Imperial College London",
   "Manouba University",
   "Monastir University",
   "New York University",
