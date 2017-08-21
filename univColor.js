@@ -66,6 +66,9 @@ function getColorByUnivName(univ) {
   // Universities in United Kingdom
   if ((['ic', 'icl', '임페', '임페리얼'].indexOf(univ.trim()) >= 0) || (['imperial college london'].indexOf(univ.toLowerCase().trim()) >= 0)) return '#002147';
 
+  // Universities in India
+  if (univ == "DTU" || univ.includes("Delhi Technological University")) return "#820605";
+  
   // Universities in the Republic of Korea
   // Index: ㄱ
   if (univ == "KYU" || univ.includes("가야대")) return "#114fa1";
