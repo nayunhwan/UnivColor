@@ -168,6 +168,6 @@ If you want to contribute this project and make it more awesome, just add color 
 * 한밭대
 * 한성대
 * 한신대
-* 한양대
+* [한양대](http://hanyang.ac.kr)
 * 호서대
 * 홍익대
