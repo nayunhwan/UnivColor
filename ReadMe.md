@@ -144,6 +144,7 @@ If you want to contribute this project and make it more awesome, just add color 
 * 인천대
 * 유니스트
 * 유한대
+* [이화여대](http://www.ewha.ac.kr)
 * 인하대
 * 전남대
 * 전북대
