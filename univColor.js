@@ -177,6 +177,7 @@ function getColorByUnivName(univ) {
   if (univ == "UNIST" || univ.includes("유니스트") || univ == "울산과기원") return "#001C54";
   if (univ == "YUHAN" || univ.includes("유한대")) return "#54b668";
   if (univ == "INHA" || univ.includes("인하대")) return "#0267b9";
+  if (univ == "EWHA" || univ.includes("이화여대")) return "#00462a"; 
 
   // Index: ㅈ
   if (univ == "JNU" || univ.includes("전남대")) return "#00913F";
