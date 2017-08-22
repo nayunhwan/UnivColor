@@ -3,6 +3,9 @@ This is a Simple Javascript function for getting Primary Color of University to 
 
 [DEMO Link](https://nayunhwan.github.io/UnivColor/)
 
+## How to contribute
+If you want to contribute this project and make it more awesome, just add color information of universities on `univColor.js`, `univList.js` and `University List at ReadMe.md`. 
+
 ## University List
 * Adelphi University
 * Boston University
