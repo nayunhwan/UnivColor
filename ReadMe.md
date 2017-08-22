@@ -8,6 +8,7 @@ This is a Simple Javascript function for getting Primary Color of University to 
 * Boston University
 * Carnegie Mellon University
 * College of William & Mary
+* Delhi Technological University
 * [EPFL](https://www.epfl.ch/index.en.html)
 * [ETH Zürich](https://www.ethz.ch/en.html)
 * Ez-zitouna University
