@@ -109,6 +109,7 @@ If you want to contribute this project and make it more awesome, just add color 
 * 동아대
 * 동양대
 * 동의대
+* 디지스트
 * 루터대
 * 명지대
 * 목원대
