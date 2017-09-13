@@ -136,6 +136,7 @@ function getColorByUnivName(univ) {
   if (univ == "DAU" || univ.includes("동아대")) return "#29166f";
   if (univ == "DYU" || univ.includes("동양대")) return "#143b82";
   if (univ == "DEU" || univ.includes("동의대")) return "#0b3d91";
+  if (univ == "DGIST" || univ.includes("디지스트")) return "#017CC2";
 
   // Index: ㄹ
   if (univ == "LTU" || univ.includes("루터대")) return "#2457a6";
