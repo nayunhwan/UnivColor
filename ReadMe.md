@@ -10,6 +10,7 @@ If you want to contribute this project and make it more awesome, just add color 
 * Adelphi University
 * Boston University
 * Carnegie Mellon University
+* [Case Western Reserve University](http://case.edu)
 * College of William & Mary
 * Delhi Technological University
 * [EPFL](https://www.epfl.ch/index.en.html)

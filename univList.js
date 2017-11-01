@@ -2,6 +2,7 @@ var univNames = [
   "Adelphi University",
   "Boston University",
   "Carnegie Mellon University",
+  "Case Western Reserve University",
   "College of William & Mary",
   "Delhi Technological University",
   "EPFL",
