@@ -35,6 +35,7 @@ var univNames = [
   "University of Neuchâtel",
   "University of Rochester",
   "University of St-Gallen",
+  "University of Texas at Austin",
   "University of Texas Rio Grande Valley",
   "University of Tsukuba",
   "University of Washington",
