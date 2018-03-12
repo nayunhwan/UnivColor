@@ -37,6 +37,7 @@ function getColorByUnivName(univ) {
   if (univ == "UCB" || univ.toLowerCase().replace(/\s+/g, '').includes("berkeley") || univ.toLowerCase().replace(/\s+/g, '').includes("버클리대")) return "#FDB515";
   if (univ == "Stanford" || univ.toLowerCase().replace(/\s+/g, '').includes("stanford") || univ.includes("스탠포드") || univ.includes("스탠퍼드")) return "#A8003B";
   if (univ == "UR" || (univ.toLowerCase().replace(/\s+/g, '').includes("rochester") && univ.toLowerCase().replace(/\s+/g, '').includes("university")) || univ.toLowerCase().replace(/\s+/g, '').includes("로체스터대")) return "#FFD100";
+  if (univ == "UT" || univ.includes("UT Austin") || univ.includes("University of Texas at Austin")) return "#BF5700";
   if (univ == "UTRGV" || univ.includes("UT Rio Grande Valley") || univ.includes("University of Texas Rio Grande Valley")) return "#F05023";
   if (univ.includes("Waterloo") || univ.toLowerCase().replace(/\s+/g, '').includes("워털루대")) return "#FFD54F";
   if (univ == "WM" || univ.toLowerCase().replace(/\s+/g, '').includes("william&mary")) return "#006633";
