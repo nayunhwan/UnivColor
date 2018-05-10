@@ -81,7 +81,7 @@ If you want to contribute this project and make it more awesome, just add color 
 * 광주가톨릭대
 * 광주대
 * 광주여자대
-* 국민대
+* [국민대](https://www.kookmin.ac.kr/home.php)
 * 군산대
 * 극동대
 * 금강대
