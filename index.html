@@ -1,130 +1,37 @@
 <!Doctype html>
 <html>
-
 <head>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Univ Color</title>
+  <link href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script type="text/javascript" src="./univColor.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
   <script type="text/javascript" src="./lib/surfacecurve-color.js"></script>
   <script src="./lib/Semantic/semantic.js"></script>
   <link rel="stylesheet" type="text/css" href="./lib/Semantic/semantic.css">
-  <style>
-    .ui.title {
-      text-align: center;
-      margin: 8em 0;
-    }
-
-    .container {
-      width: 50%;
-      margin: auto;
-    }
-
-    .colorBox {
-      display: inline-block;
-      color: white;
-      font-size: 5px;
-      line-height: 82px;
-      text-align: center;
-      width: 82px;
-      height: 82px;
-      cursor: pointer;
-    }
-  </style>
-  <script>
-
-    function initialUnivColor(univNames) {
-      return univNames.map(function(name){
-        var univObject = {};
-        univObject.color = getColorByUnivName(name);
-        univObject.name = name;
-        return univObject;
-      });
-    }
-
-    function hexc(colorval) {
-      var parts = colorval.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
-      delete(parts[0]);
-      for (var i = 1; i <= 3; ++i) {
-          parts[i] = parseInt(parts[i]).toString(16).toUpperCase();
-          if (parts[i].length == 1) parts[i] = '0' + parts[i];
-      }
-      return color = '#' + parts.join('');
-    }
-
-    var univNames = ["Adelphi University", "UC Berkeley", "가야대", "가천대", "가톨릭대", "가톨릭관동대", "감리교신학대", "강남대",
-      "강릉원주대", "강원대", "건국대", "건양대", "경기대", "경남과학기술대", "경남대", "경동대",
-      "경북대", "경상대", "경성대", "경운대", "경일대", "경주대", "경희대", "계명대", "계명문화대", "고려대", "고신대",
-      "공주대", "광신대", "광운대", "광주가톨릭대", "광주대", "광주여자대", "국민대", "군산대", "극동대",
-      "금강대", "금오공대", "김천대", "꽃동네대", "나사렛대", "남부대", "남서울대", "단국대", "대구가톨릭대",
-      "대구대", "대구예술대", "대구한의대", "대신대", "대전가톨릭대", "대전대", "대전신학대", "대진대", "덕성여대",
-      "동국대", "동덕여대", "동명대", "동서대", "동신대", "동아대", "동양대", "동의대", "루터대", "명지대",
-      "목원대", "목포가톨릭대", "목포대", "목포해양대", "배재대", "백석대", "부경대", "부산가톨릭대", "부산대",
-      "부산외국어대", "부산장신대", "삼육대", "상명대", "서강대", "서경대", "서울대", "서울과학기술대",
-      "서울시립대", "성공회대", "성균관대", "세종대", "숭실대", "숭의여대", "아주대", "연세대", "영남대", "전남대", "전북대", "전주대", "중앙대",
-      "충남대", "충북대", "카이스트", "평택대", "한국외국어대", "한국항공대", "한동대", "한남대", "한성대", "한양대", "호서대", "홍익대"];
-
-   var univHash = initialUnivColor(univNames);
-
-   var sortedByColor = univHash.sort(function(colorA, colorB) {
-    return surfacecurve.color(colorA.color).hue() - surfacecurve.color(colorB.color).hue();
-   });
-
-   $(function(){
-
-      var univListTemplate = sortedByColor.map(function(univ, i) {
-        var box = $('<div/>').addClass('colorBox').css({'background': univ.color}).text(univ.name);
-        return box.get(0);
-      });
-
-      $('.container').html(univListTemplate);
-
-      $('#getColor').on('click', function(){
-        var color = getColorByUnivName($('#input').val());
-        var $haxCode = $('#hexCode');
-        if(color === 'Not Found') {
-          $haxCode.css({'background': '#ffffff', 'color': '#000000'}).text(color);
-        } else {
-          $haxCode.css({'background': color, 'color': '#ffffff'}).text(color);
-        }
-      });
-
-
-      $('.colorBox').click(function(){
-        var $haxCode = $('#hexCode');
-        var color = hexc($(this).css('background-color'));
-        $haxCode.css({'background': color, 'color': '#ffffff'}).text(color);
-      });
-      $('.colorBox').hover(function(){
-        $(this).css("opacity", "0.8");
-        $(this).css("font-size", "6.5px");
-      }, function() {
-        $(this).css("opacity", "1.0");
-        $(this).css("font-size", "5px");
-      });
-   });
-  </script>
+  <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
-  <div class="ui title">
-    <h1 class="ui huge header">Univ Color
-      <div class="sub header">
-        The Color System of Universities
-      </div>
-    </h1>
-    <a href="https://github.com/nayunhwan/UnivColor" class="ui button basic"><i class="github icon"></i> Github</a>
-    <br />
-    <br />
-    <h3 id="hexCode">Input Name of University</h3>
-    <div>
-      <div class="ui input focus">
-        <input id="input" type="text" placeholder="Search...">
-      </div>
-      <button id="getColor" class="ui button basic">Get Color Code</button>
+    <div class="container">
+        <div class="ui title">
+            <h1 class="ui huge header">
+                Univ Color
+                <div class="sub header">
+                    The Color System of Universities
+                </div>
+            </h1>
+            <a href="https://github.com/nayunhwan/UnivColor" class="ui button basic"><i class="github icon"></i> Github</a>
+        </div>
+        <div class="ui input focus search">
+            <input id="input" type="text" placeholder="Search..." />
+        </div>
+        <div id="hexCode" class="hexBox"></div>
+        <div id="university" class="flex">
+        </div>
     </div>
-  </div>
-
-  <div class="container"></div>
+    <script type="text/javascript" src="./univColor.js"></script>
+    <script type="text/javascript" src="./univList.js"></script>
+    <script type="text/javascript" src="./app.js"></script>
 </body>
-
 </html>
