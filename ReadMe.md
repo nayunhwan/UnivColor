@@ -166,6 +166,7 @@ If you want to contribute this project and make it more awesome, just add color 
 * 한국승강기대
 * 한국외국어대
 * 한국항공대
+* [한남대](http://www.hannam.ac.kr)
 * 한동대
 * 한림대
 * 한밭대
