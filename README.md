@@ -157,7 +157,7 @@ If you want to contribute this project and make it more awesome, just add color 
 * 중앙대
 * 창원대
 * 총신대
-* 충남대
+* [충남대](http://plus.cnu.ac.kr)
 * 충북대
 * 카이스트
 * 포항공과대학교
