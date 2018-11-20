@@ -1,3 +1,4 @@
+[![LICENSE](https://img.shields.io/dub/l/vibe-d.svg?style=flat-square)](./LICENSE)
 [![HitCount](http://hits.dwyl.io/nayunhwan/UnivColor.svg)](http://hits.dwyl.io/nayunhwan/UnivColor)
 
 # UnivColor.js
