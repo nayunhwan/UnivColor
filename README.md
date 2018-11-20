@@ -9,6 +9,10 @@ This is a Simple Javascript function to get Primary Color of University to Hex C
 ## How to contribute
 If you want to contribute this project and make it more awesome, just add color information of universities on `univColor.js`, `univList.js` and `University List at README.md`. 
 
+## LICENSE
+[MIT Licensed](./LICENSE)
+
+
 ## University List
 * Adelphi University
 * Boston University
