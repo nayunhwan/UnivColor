@@ -1,4 +1,6 @@
-﻿# UnivColor.js
+[![HitCount](http://hits.dwyl.io/nayunhwan/UnivColor.svg)](http://hits.dwyl.io/nayunhwan/UnivColor)
+
+# UnivColor.js
 This is a Simple Javascript function to get Primary Color of University to Hex Code
 
 [DEMO Link](https://nayunhwan.github.io/UnivColor/)
