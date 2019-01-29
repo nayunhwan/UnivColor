@@ -1,0 +1,25 @@
+{
+  "name": "univ-color",
+  "version": "1.0.0",
+  "description": "Primary Colors of University",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nayunhwan/UnivColor.git"
+  },
+  "keywords": [
+    "univ-color"
+  ],
+  "author": "nayunhwan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nayunhwan/UnivColor/issues"
+  },
+  "homepage": "https://github.com/nayunhwan/UnivColor#readme"
+}

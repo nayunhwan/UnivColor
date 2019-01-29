@@ -1,0 +1,676 @@
+{
+  "data": [
+    {
+      "names": ["Adelphi University"],
+      "color": "#FDB813"
+    },
+    {
+      "names": ["Boston University", "보스턴대학교"],
+      "color": "#CC0000"     
+    },
+    {
+      "names": ["Carnegie Mellon University", "카네기멜론대학교", "CMU"],
+      "color": "#CC002B"
+    },
+    {
+      "names": ["Case Western Reserve University"],
+      "color": "#0A304E"
+    },
+    {
+      "names": ["College of William & Mary"],
+      "color": "#006633"
+    },
+    {
+      "names": ["Delhi Technological University"],
+      "color": "#820605"
+    },
+    {
+      "names": ["EPFL"],
+      "color": "#E3011B"
+    },
+    {
+      "names": ["ETH Zürich"],
+      "color": "#0F0F0F"
+    },
+    {
+      "names": ["Ez-zitouna University"],
+      "color": "#C68ED4"
+    },
+    {
+      "names": ["Gabes University"],
+      "color": "#10A0F1"
+    },
+    {
+      "names": ["Gafsa University"],
+      "color": "#020181"
+    },
+    {
+      "names": ["George Washington University"],
+      "color": "#004065"  
+    },
+    {
+      "names": ["Georgia Institute of Technology", "조지아공대", "조지아텍"],
+      "color": "#EEB211"
+    },
+    {
+      "names": ["Harvard University", "하버드대학교"],
+      "color": "#C90016"
+    },
+    {
+      "names": ["Imperial College London", "icl"],
+      "color": "#002147"
+    },
+    {
+      "names": ["Manouba University"],
+      "color": "#004C96"
+    },
+    {
+      "names": ["Monastir University"],
+      "color": "#305086"
+    },
+    {
+      "names": ["New York University"],
+      "color": "#582E87"
+    },
+    {
+      "names": ["Sfax University"],
+      "color": "#C48f00"
+    },
+    {
+      "names": ["Singapore Management University"],
+      "color": "#223385"
+    },
+    {
+      "names": ["Sousse University"],
+      "color": "#10457d"
+    },
+    {
+      "names": ["Stanford University", "스탠퍼드", "스탠포드"],
+      "color": "#A8003B"
+    },
+    {
+      "names": ["Tunis El Manar University"],
+      "color": "#AC0C0C"
+    },
+    {
+      "names": ["Tunis University"],
+      "color": "#9198A0"
+    },
+    {
+      "names": ["UC Berkeley"],
+      "color": "#FDB515"
+    },
+    {
+      "names": ["University of Basel"],
+      "color": "#A6D8D3"
+    },
+    {
+      "names": ["University of Bern"],
+      "color": "#0A0A0A"
+    },
+    {
+      "names": ["University of Carthage"],
+      "color": "#005289"
+    },
+    {
+      "names": ["University of Delaware"],
+      "color": "#00539F"
+    },
+    {
+      "names": ["University of Fribourg"],
+      "color": "#1b161b"
+    },
+    {
+      "names": ["University of Geneva"],
+      "color": "#D11064"
+    },
+    {
+      "names": ["University of Jendouba"],
+      "color": "#AE2543"
+    },
+    {
+      "names": ["University of Lausanne"],
+      "color": "#2995CB"
+    },
+    {
+      "names": ["University of Neuchâtel"],
+      "color": "#074E74"
+    },
+    {
+      "names": ["University of Rochester"],
+      "color": "#FFD100"
+    },
+    {
+      "names": ["University of St-Gallen"],
+      "color": "#408059"
+    },
+    {
+      "names": ["University of Texas at Austin"],
+      "color": "#BF5700"
+    },
+    {
+      "names": ["University of Texas Rio Grande Valley"],
+      "color": "#F05023"
+    },
+    {
+      "names": ["University of Tsukuba", "筑波"],
+      "color": "#6600CC"
+    },
+    {
+      "names": ["University of Washington"],
+      "color": "#4B2E83"
+    },
+    {
+      "names": ["University of Waterloo", "워털루대학교"],
+      "color": "#FFD54F"
+    },
+    {
+      "names": ["University of Zürich"],
+      "color": "#060606"
+    },
+    {
+      "names": ["Washington University in St. Louis"],
+      "color": "#A51417"
+    },
+    {
+      "names": ["가야대학교"],
+      "color": "#114fA1"
+    },
+    {
+      "names": ["가천대학교"],
+      "color": "#00458C"
+    },
+    {
+      "names": ["가톨릭대학교"],
+      "color": "#003594"
+    },
+    {
+      "names": ["가톨릭관동대학교"],
+      "color": "#006276"
+    },
+    {
+      "names": ["감리교신학대학교"],
+      "color": "#800080"
+    },
+    {
+      "names": ["강남대학교"],
+      "color": "#0091FF"
+    },
+    {
+      "names": ["강릉원주대학교"],
+      "color": "#A90056"
+    },
+    {
+      "names": ["강원대학교"],
+      "color": "#1851A5"
+    },
+    {
+      "names": ["건국대학교", "건대"],
+      "color": "#036b3f"
+    },
+    {
+      "names": ["건양대학교"],
+      "color": "#006940"
+    },
+    {
+      "names": ["경기대학교"],
+      "color": "#004889"
+    },
+    {
+      "names": ["경남과학기술대학교"],
+      "color": "#2956A6"
+    },
+    {
+      "names": ["경남대학교"],
+      "color": "#003A56"
+    },
+    {
+      "names": ["경동대학교"],
+      "color": "#0C4DA2"
+    },
+    {
+      "names": ["경북대학교"],
+      "color": "#DA2127"
+    },
+    {
+      "names": ["경상대학교"],
+      "color": "#242B90"
+    },
+    {
+      "names": ["경성대학교"],
+      "color": "#0057b8"
+    },
+    {
+      "names": ["경운대학교"],
+      "color": "#23438E"
+    },
+    {
+      "names": ["경일대학교"],
+      "color": "#98012E"
+    },
+    {
+      "names": ["경주대학교"],
+      "color": "#DF0013"
+    },
+    {
+      "names": ["경희대학교"],
+      "color": "#9D2235"
+    },
+    {
+      "names": ["계명대학교"],
+      "color": "#024DA0"
+    },
+    {
+      "names": ["계명문화대학교"],
+      "color": "#EB2D2F"
+    },
+    {
+      "names": ["고려대학교", "고대"],
+      "color": "#862633"
+    },
+    {
+      "names": ["고신대학교"],
+      "color": "#003f91"
+    },
+    {
+      "names": ["공주대학교"],
+      "color": "#01499a"
+    },
+    {
+      "names": ["광신대학교"],
+      "color": "#1D2881"
+    },
+    {
+      "names": ["광운대학교"],
+      "color": "#8A1601"
+    },
+    {
+      "names": ["광주가톨릭대학교"],
+      "color": "#ED1C24"
+    },
+    {
+      "names": ["광주대학교"],
+      "color": "#144112"
+    },
+    {
+      "names": ["광주여자대학교"],
+      "color": "#008b9c"
+    },
+    {
+      "names": ["국민대학교"],
+      "color": "#2864ae"
+    },
+    {
+      "names": ["군산대학교"],
+      "color": "#437FC1"
+    },
+    {
+      "names": ["극동대학교"],
+      "color": "#221f1f"
+    },
+    {
+      "names": ["금강대학교"],
+      "color": "#005AAB"
+    },
+    {
+      "names": ["금오공과대학교", "금오공대"],
+      "color": "#1E90FF"
+    },
+    {
+      "names": ["김천대학교"],
+      "color": "#57444E"
+    },
+    {
+      "names": ["꽃동네대학교"],
+      "color": "#CF171F"
+    },
+    {
+      "names": ["나사렛대학교"],
+      "color": "#B32F20"
+    },
+    {
+      "names": ["남부대학교"],
+      "color": "#13007D"
+    },
+    {
+      "names": ["남서울대학교"],
+      "color": "#1F519B"
+    },
+    {
+      "names": ["단국대학교", "단대"],
+      "color": "#245CA1"
+    },
+    {
+      "names": ["대구가톨릭대학교"],
+      "color": "#0742A4"
+    },
+    {
+      "names": ["대구대학교"],
+      "color": "#00806E"
+    },
+    {
+      "names": ["대구예술대학교"],
+      "color": "#DF569E"
+    },
+    {
+      "names": ["대구한의대학교"],
+      "color": "#50AD95"
+    },
+    {
+      "names": ["대신대학교"],
+      "color": "#3680BD"
+    },
+    {
+      "names": ["대전가톨릭대학교"],
+      "color": "#7A42A0"
+    },
+    {
+      "names": ["대전대학교"],
+      "color": "#347C4D"
+    },
+    {
+      "names": ["대전신학대학교"],
+      "color": "#2D70B5"
+    },
+    {
+      "names": ["대진대학교"],
+      "color": "#184490"
+    },
+    {
+      "names": ["덕성여대학교"],
+      "color": "#AC145A"
+    },
+    {
+      "names": ["동국대학교"],
+      "color": "#CB6015"
+    },
+    {
+      "names": ["동덕여대학교"],
+      "color": "#8B2842"
+    },
+    {
+      "names": ["동명대학교"],
+      "color": ""
+    },
+    {
+      "names": ["동서대학교"],
+      "color": ""
+    },
+    {
+      "names": ["동서울대학교"],
+      "color": ""
+    },
+    {
+      "names": ["동신대학교"],
+      "color": ""
+    },
+    {
+      "names": ["동아대학교"],
+      "color": ""
+    },
+    {
+      "names": ["동양대학교"],
+      "color": ""
+    },
+    {
+      "names": ["동의대학교"],
+      "color": ""
+    },
+    {
+      "names": ["디지스트"],
+      "color": ""
+    },
+    {
+      "names": ["루터대학교"],
+      "color": ""
+    },
+    {
+      "names": ["명지대학교"],
+      "color": ""
+    },
+    {
+      "names": ["목원대학교"],
+      "color": ""
+    },
+    {
+      "names": ["목포가톨릭대학교"],
+      "color": ""
+    },
+    {
+      "names": ["목포대학교"],
+      "color": ""
+    },
+    {
+      "names": ["목포해양대학교"],
+      "color": ""
+    },
+    {
+      "names": ["배재대학교"],
+      "color": ""
+    },
+    {
+      "names": ["백석대학교"],
+      "color": ""
+    },
+    {
+      "names": ["부경대학교"],
+      "color": ""
+    },
+    {
+      "names": ["부산가톨릭대학교"],
+      "color": ""
+    },
+    {
+      "names": ["부산대학교"],
+      "color": ""
+    },
+    {
+      "names": ["부산외국어대학교"],
+      "color": ""
+    },
+    {
+      "names": ["부산장신대학교"],
+      "color": ""
+    },
+    {
+      "names": ["삼육대학교"],
+      "color": ""
+    },
+    {
+      "names": ["상명대학교"],
+      "color": ""
+    },
+    {
+      "names": ["서강대학교"],
+      "color": ""
+    },
+    {
+      "names": ["서경대학교"],
+      "color": ""
+    },
+    {
+      "names": ["서울대학교"],
+      "color": ""
+    },
+    {
+      "names": ["서울과학기술대학교"],
+      "color": ""
+    },
+    {
+      "names": ["서울시립대학교"],
+      "color": ""
+    },
+    {
+      "names": ["선문대학교"],
+      "color": ""
+    },
+    {
+      "names": ["성공회대학교"],
+      "color": ""
+    },
+    {
+      "names": ["성균관대학교"],
+      "color": ""
+    },
+    {
+      "names": ["세명대학교"],
+      "color": ""
+    },
+    {
+      "names": ["세종대학교"],
+      "color": ""
+    },
+    {
+      "names": ["순천대학교"],
+      "color": ""
+    },
+    {
+      "names": ["순천향대학교"],
+      "color": ""
+    },
+    {
+      "names": ["숭실대학교"],
+      "color": ""
+    },
+    {
+      "names": ["숭의여대학교"],
+      "color": ""
+    },
+    {
+      "names": ["아주대학교"],
+      "color": ""
+    },
+    {
+      "names": ["연세대학교"],
+      "color": ""
+    },
+    {
+      "names": ["영남대학교"],
+      "color": ""
+    },
+    {
+      "names": ["인천대학교"],
+      "color": ""
+    },
+    {
+      "names": ["유니스트"],
+      "color": ""
+    },
+    {
+      "names": ["유한대학교"],
+      "color": ""
+    },
+    {
+      "names": ["인하대학교"],
+      "color": ""
+    },
+    {
+      "names": ["이화여대학교"],
+      "color": ""
+    },
+    {
+      "names": ["전남대학교"],
+      "color": ""
+    },
+    {
+      "names": ["전북대학교"],
+      "color": ""
+    },
+    {
+      "names": ["전주대학교"],
+      "color": ""
+    },
+    {
+      "names": ["조선대학교"],
+      "color": ""
+    },
+    {
+      "names": ["조선이공대학교"],
+      "color": ""
+    },
+    {
+      "names": ["중앙대학교"],
+      "color": ""
+    },
+    {
+      "names": ["창원대학교"],
+      "color": ""
+    },
+    {
+      "names": ["총신대학교"],
+      "color": ""
+    },
+    {
+      "names": ["충남대학교"],
+      "color": ""
+    },
+    {
+      "names": ["충북대학교"],
+      "color": ""
+    },
+    {
+      "names": ["카이스트"],
+      "color": ""
+    },
+    {
+      "names": ["포항공과대학교"],
+      "color": ""
+    },
+    {
+      "names": ["평택대학교"],
+      "color": ""
+    },
+    {
+      "names": ["한국기술교육대학교"],
+      "color": ""
+    },
+    {
+      "names": ["한국승강기대학교"],
+      "color": ""
+    },
+    {
+      "names": ["한국외국어대학교"],
+      "color": ""
+    },
+    {
+      "names": ["한국항공대학교"],
+      "color": ""
+    },
+    {
+      "names": ["한동대학교"],
+      "color": ""
+    },
+    {
+      "names": ["한남대학교"],
+      "color": ""
+    },
+    {
+      "names": ["한림대학교"],
+      "color": ""
+    },
+    {
+      "names": ["한밭대학교"],
+      "color": ""
+    },
+    {
+      "names": ["한성대학교"],
+      "color": ""
+    },
+    {
+      "names": ["한양대학교"],
+      "color": ""
+    },
+    {
+      "names": ["한신대학교"],
+      "color": ""
+    },
+    {
+      "names": ["호서대학교"],
+      "color": ""
+    },
+    {
+      "names": ["홍익대학교"],
+      "color": ""
+    }
+  ]
+}
