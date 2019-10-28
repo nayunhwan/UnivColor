@@ -7,7 +7,7 @@ This is a Simple Javascript function to get Primary Color of University to Hex C
 [DEMO Link](https://nayunhwan.github.io/UnivColor/)
 
 ## How to contribute
-If you want to contribute this project and make it more awesome, just add color information of universities on `univColor.js`, `univList.js` and `University List at README.md`. 
+If you want to contribute this project and make it more awesome, just add color information of universities on `univColor.js`, `univList.js` and `University List at README.md`.
 
 ## LICENSE
 [MIT Licensed](./LICENSE)
@@ -143,7 +143,7 @@ If you want to contribute this project and make it more awesome, just add color 
 * 성공회대
 * 성균관대
 * 세명대
-* 세종대
+* [세종대](http://www.sejong.ac.kr)
 * 순천대
 * 순천향대
 * 숭실대
