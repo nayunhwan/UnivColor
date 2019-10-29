@@ -6,7 +6,7 @@
     },
     {
       "names": ["Boston University", "보스턴대학교"],
-      "color": "#CC0000"     
+      "color": "#CC0000"
     },
     {
       "names": ["Carnegie Mellon University", "카네기멜론대학교", "CMU"],
@@ -46,7 +46,7 @@
     },
     {
       "names": ["George Washington University"],
-      "color": "#004065"  
+      "color": "#004065"
     },
     {
       "names": ["Georgia Institute of Technology", "조지아공대", "조지아텍"],
@@ -517,8 +517,8 @@
       "color": ""
     },
     {
-      "names": ["세종대학교"],
-      "color": ""
+      "names": ["세종대학교", "Sejong University"],
+      "color": "#BA0C2F"
     },
     {
       "names": ["순천대학교"],
